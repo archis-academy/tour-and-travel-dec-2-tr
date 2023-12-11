@@ -49,6 +49,10 @@
     position: relative;
 }
 
+.col-title{
+    color: #001B79;
+    margin-bottom: 10px;
+}
 
 
 .box{
@@ -85,8 +89,15 @@
     
     
 }
+.col-text{
+    font-size: 18px;
+    line-height: 1.4;
+    width: 100%;
+}
 .col-2-title{    
     margin-top: 22px;
+    color: #001B79;
+    margin-bottom: 10px;
 }
 
 .box-2{
