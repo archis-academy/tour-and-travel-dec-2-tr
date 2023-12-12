@@ -15,7 +15,7 @@
    
 }
 .homepage-services .first-title{
-    margin: 0 0 5px 0;
+    margin: 0 0 15px 0;
     color: #EE7214
 }
 
@@ -40,7 +40,7 @@
 }
 
 .col{
-    height: 195px;
+    height: 302;
     width: 234px;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
     position: absolute;
     border-radius: 15px 5px 20px 5px;  
     opacity: .1;
-    bottom: 110px;
+    bottom: 135px;
     right: 65px;
     z-index: -1;
     
