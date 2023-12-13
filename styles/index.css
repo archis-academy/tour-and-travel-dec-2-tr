@@ -1,128 +1,113 @@
-.container{
-    height: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.services-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.homepage-services{
-    width: 1282px;
-    height:479.91px ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-   
+.homepage-services {
+  width: 1282px;
+  height: 479.91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.homepage-services .first-title{
-    margin: 0 0 15px 0;
-    color: #EE7214
+.homepage-services .first-title {
+  margin: 0 0 15px 0;
+  color: #df6951;
+  font-size: 18px;
 }
 
-.homepage-services .main-title{
-    margin: 0 0 45px 0;
-    color: #001B79;
-    font-size: 22px;
-    
-    
-
+.homepage-services .main-title {
+  margin: 0 0 45px 0;
+  color: #181e4b;
+  font-size: 50px;
 }
 
-.row{
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
-    text-align: center;
-    height: 347px;
-    width: 1282px;
-    
-
+.row {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  text-align: center;
+  height: 347px;
+  width: 1282px;
 }
 
-.col{
-    height: 302;
-    width: 234px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    position: relative;
+.col {
+  height: 302;
+  width: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.col-title{
-    color: #001B79;
-    margin-bottom: 10px;
+.col-title {
+  color: #1e1d4c;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-
-.box{
-    width: 50px;
-    height: 49px;
-    background-color: yellow;
-    position: absolute;
-    border-radius: 15px 5px 20px 5px;  
-    opacity: .1;
-    bottom: 135px;
-    right: 65px;
-    z-index: -1;
-    
+.box {
+  width: 50px;
+  height: 49px;
+  background-color: #fff1da;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  bottom: 170px;
+  right: 65px;
+  z-index: -1;
 }
 
-.border-col-2{
-    position: relative;
-    background-color: white;
-    width: 302px;
-    height: 300;
-     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 20px 5px -2px rgba(0, 0, 0, .1);
+.border-col-2 {
+  position: relative;
+  background-color: white;
+  width: 302px;
+  height: 300;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 5px -2px rgba(0, 0, 0, 0.1);
 }
-.services-col-2{
-    
-    width: 240px;
-    height: 290px;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    
-    
+.services-col-2 {
+  width: 240px;
+  height: 290px;
+  border-radius: 20px;
+  justify-content: start;
+  align-items: center;
 }
-.col-text{
-    font-size: 18px;
-    line-height: 1.4;
-    width: 100%;
+.col-text {
+  font-size: 18px;
+  line-height: 1.4;
+  width: 100%;
 }
-.col-2-title{    
-    margin-top: 22px;
-    color: #001B79;
-    margin-bottom: 10px;
+.col-2-title {
+  margin-top: 22px;
+  color: #1e1d4c;
+  margin-bottom: 10px;
 }
 
-.box-2{
-    width: 100px;
-    height: 100px;
-    background-color: #EE7214;
-    position: absolute;
-    border-radius: 30px;
-    left: -30px;
-    bottom: -30px;
-    z-index: -1;
-    
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #df6951;
+  position: absolute;
+  border-radius: 30px;
+  left: -30px;
+  bottom: -30px;
+  z-index: -1;
 }
-.row .col .col-title{
-   
-    margin-top: 40px;
-   
+.row .col .col-title {
+  margin-top: 40px;
 }
-.box-col-2{
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    position: absolute;
-    border-radius: 15px 5px 20px 5px;  
-    opacity: .1;
-    top: 10px;
-    left:90px;
+.box-col-2 {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  opacity: 0.1;
+  top: 10px;
+  left: 90px;
 }
