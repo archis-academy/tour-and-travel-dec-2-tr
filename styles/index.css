@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Volkhov";
+}
+
+.tours-section-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 20px;
+}
