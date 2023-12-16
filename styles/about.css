@@ -1,0 +1,21 @@
+.services-img-box {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  opacity: 0.1;
+  top: 10px;
+  left: 90px;
+}
+
+.services-img-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #df6951;
+  position: absolute;
+  border-radius: 30px;
+  left: -30px;
+  bottom: -30px;
+  z-index: -1;
+}
