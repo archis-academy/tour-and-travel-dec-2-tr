@@ -9,8 +9,70 @@ body {
 }
 
 .tours-section-left {
-    display: flex;
+    display: inline-block;
     align-items: center;
-    gap: 50px;
-    padding: 10px 20px;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.tours-section-left-up {}
+
+.tours-section-promotion-title {
+    color: #DF6951;
+    /*font-weight: bolder; bu çalışmıyor*/
+    padding-bottom: 20px;
+}
+
+.tours-section-title {
+    padding-bottom: 20px;
+    color: #181E4B;
+    line-height: 71.04px;
+    /* font-weight: 700px; bu yine çalışmıyor*/
+    font-size: 50px;
+    font-family: "Volkhov";
+}
+
+.tours-section-paragraph {
+    padding-bottom: 20px;
+}
+
+.tour-section-button {
+    background-color: #DF6951;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    text-align: start;
+    padding: 15px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+
+}
+
+.tours-section-left-down {
+    display: inline-block;
+}
+
+.orange-price-tickets {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.ticket-number {
+
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.tours-section-left-down-photos {
+    display: block;
+
+}
+
+.tours-photos {
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    margin-right: 50px;
 }
