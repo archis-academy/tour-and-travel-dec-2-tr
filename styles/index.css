@@ -15,12 +15,11 @@ body {
     padding-top: 100px;
 }
 
-.tours-section-left-up {}
-
 .tours-section-promotion-title {
     color: #DF6951;
     /*font-weight: bolder; bu çalışmıyor*/
     padding-bottom: 20px;
+    font-weight: bolder;
 }
 
 .tours-section-title {
@@ -34,6 +33,9 @@ body {
 
 .tours-section-paragraph {
     padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bolder;
 }
 
 .tour-section-button {
@@ -44,30 +46,39 @@ body {
     text-align: start;
     padding: 15px;
     padding-right: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 
 .tours-section-left-down {
     display: inline-block;
+    position: relative;
 }
 
 .orange-price-tickets {
+    position: absolute;
     display: flex;
     text-align: center;
-    align-items: flex-start;
-    justify-content: space-between;
+    gap: 165px;
+    padding-inline-start: 100px;
+    z-index: 1;
+    margin-top: 10px;
 }
 
 .ticket-number {
-
-    padding-left: 80px;
-    padding-right: 80px;
+    background: linear-gradient(90deg, #FF7255, #BA4E38);
+    width: 90px;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
 
 .tours-section-left-down-photos {
     display: block;
-
+    z-index: 0;
 }
 
 .tours-photos {
@@ -75,4 +86,24 @@ body {
     height: 200px;
     display: inline-flex;
     margin-right: 50px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.tours-section-right {
+    display: inline-flex;
+}
+
+.tours-section-right-photo {
+    height: 665px;
+    width: 473px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.homepage-tours-section {
+    padding-bottom: 20px;
 }
