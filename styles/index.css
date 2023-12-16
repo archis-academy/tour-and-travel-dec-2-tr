@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.libertystatue-section {
+    position: relative;
+    align-items: center;
+}
+
+.liberty-statue-text {
+    font-size: 42px;
+}
+
+.liberty-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.liberty-statue-text-and-line {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Volkhov";
+}
+
+.liberty-photo-line {
+    position: absolute;
+    top: 120%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
