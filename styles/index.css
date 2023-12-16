@@ -4,19 +4,23 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .homepage-header-container {
-  display: flex;
-  flex-direction: column;
-
-  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+    "x header header header header button"
+    "x content content content content content";
 }
 
 .header-menu {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-content: space-between;
+  grid-area: header;
+  margin-top: 40px;
 }
 
 .header-menu-navbar ul {
@@ -41,6 +45,7 @@
   border: none;
   font-size: 17px;
   font-weight: 500;
+  grid-area: button;
 }
 
 .header-content {
@@ -48,31 +53,77 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  grid-area: content;
+  margin-top: 200px;
 }
 
-.header-content-search {
-  background-color: #fff;
+.header-content-title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.125rem;
+}
+
+.content-search-box {
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17.760618209838867px);
+  border-radius: 0.3rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 110px;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
-.header-content-input {
+.search-box-item button {
+  padding: 14px 50px;
+  border-radius: 14px;
+  background-color: #df6951;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.content-img1 {
-}
-.content-img2 {
-}
-
-.content-travel-type {
-}
-
-.header-content-travel-duration {
+.search-box-item {
+  margin: 20px 35px;
+  color: #fff;
+  font-size: 1.17531rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
 }
 
-.btn-search {
-  grid-area: "button";
+.search-box-item h4 {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.content-people {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.people-avatar img {
+  margin-right: -17px;
+  margin-top: 10px;
+}
+
+.people-text {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.header-scroll img {
+  position: absolute;
+  bottom: -210px;
+  left: 30px;
 }
