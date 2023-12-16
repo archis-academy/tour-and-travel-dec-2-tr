@@ -127,3 +127,36 @@
   bottom: -210px;
   left: 30px;
 }
+
+#search-area {
+  padding: 18px;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.search-box-item select {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.search-box-item select option {
+  color: black;
+}
