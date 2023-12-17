@@ -15,6 +15,7 @@
 
 .left-explore-area {
     position: absolute;
+    text-align: center;
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
@@ -23,8 +24,45 @@
 
 .right-explore-area {
     position: absolute;
+    text-align: center;
     top: 40%;
     left: 75%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.explore-area-promotion {
+    color: #FFEFEC;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.explore-area-title {
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+}
+
+.explore-area-button {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    background-color: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: #FFEFEC;
+    border-style: solid;
 }
