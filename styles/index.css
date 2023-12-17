@@ -3,18 +3,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 350px;
+  margin: 0 260px;
 }
 .trip-bookings-container {
   display: grid;
-  grid-template-columns: repeat(6, 1);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-areas:
     " filter filter filter filter filter filter  "
     "cardl cardl cardr cardr  search search "
     "cardl cardl cardr cardr  img img ";
-  column-gap: 40px;
+  column-gap: 50px;
   background: #f8f8f8;
-  row-gap: 20px;
+  row-gap: 50px;
 }
 .booking-cards-left {
   grid-area: cardl;
@@ -39,7 +39,7 @@
 }
 
 .trip-bookings-filter ul li {
-  margin: 15px 26px;
+  margin: 15px 16px;
 }
 
 .trip-bookings-filter ul a {
@@ -68,6 +68,8 @@
 
 .booking-card-img {
   height: 257px;
+}
+.booking-card {
 }
 
 .booking-card-img img {
@@ -141,4 +143,39 @@
 .booking-search-area {
   background: #ededed;
   grid-area: search;
+  padding: 40px 15px;
+}
+
+.search-info h3 {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-info p {
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  outline: none;
+  border: none;
+  margin: 16px 0;
+}
+
+.search-tour, .search-date, .search-where {
+  background-color: white;
+  margin: 10px 16px;
+  text-align: left;
+  padding-left: 10px;
 }
