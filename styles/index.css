@@ -127,3 +127,12 @@
   bottom: -210px;
   left: 30px;
 }
+
+.content-search-box .search-box-item input {
+  padding: 15px;
+  background-color: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17.760618209838867px);
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
