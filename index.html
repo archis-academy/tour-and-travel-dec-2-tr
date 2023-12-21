@@ -23,6 +23,25 @@
   </head>
   <body>
     <!-- ENGIN - TO-01 TRIP BOOKINGS -->
+   <header class="main-header"> 
+    <div class="homepage-header-container">
+      <div class="header-menu">
+        <div class="header-menu-logo">
+          <img src="/images/logo.png" alt="" />
+        </div>
+        <div class="header-menu-navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Upcomming Upgrades</a></li>
+          </ul>
+        </div>
+        <div class="header-button">
+          <button>Get in Touch</button>
+        </div>
+      </div>
+    </header>
     <div class="trip-bookings">
       <div class="trip-bookings-container">
         <div class="trip-bookings-filter">
@@ -252,10 +271,57 @@
             <h4>Filter By Price</h4>
             <input type="range" min="12" max="3600" value="100" />
             <p>Price:$12-$3600</p>
+            <button type="submit">Book Now</button>
           </div>
-          <button type="submit">Book Now</button>
+          
+        </div>
+        <div class="booking-container-img">
+          <img src="/images/booking-img.png" alt="">
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo footer-item">
+          <img src="/images/logo-footer.png" alt="">
+          <p> Travel helps companies <br> manage payments easily.</p>
+          <div class="footer-logo-socials">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-infinity"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-company footer-item">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-destinations footer-item">
+          <h4>Destinations</h4>
+          <ul>
+            <li><a href="#">Maldives</a></li>
+            <li><a href="#">Los Angelas</a></li>
+            <li><a href="#">Las Vegas</a></li>
+            <li><a href="#">Toronto</a></li>
+          </ul>
+        </div>
+        <div class="footer-join footer-item">
+          <h4>Join Our Newsletter</h4>
+          <div class="footer-join-subs">
+            <input placeholder="Your Mail Adress" type="email" name="" id="">
+            <button>Subscribe</button>
+            <p>*  Will send you weekly updates for your better <br>
+              tour packages.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
