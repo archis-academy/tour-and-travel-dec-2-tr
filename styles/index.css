@@ -38,6 +38,33 @@
   grid-area: button;
 }
 
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.header-text h2 {
+  color: #ffefec;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.header-text h1 {
+  color: #fff;
+  font-family: Yesteryear;
+  font-size: 157.426px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 223.678px; /* 142.085% */
+}
+
 .trip-bookings {
   display: flex;
   flex-direction: column;
