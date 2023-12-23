@@ -9,10 +9,13 @@ body {
 }
 
 .tours-section-left {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-left: 300px;
     padding-top: 100px;
+    transform: translate(-20%, -0%);
 }
 
 .tours-section-promotion-title {
@@ -77,8 +80,9 @@ body {
 }
 
 .tours-section-left-down-photos {
-    display: block;
+    display: flex;
     z-index: 0;
+    margin-left: 20px;
 
 }
 
@@ -89,19 +93,22 @@ body {
     margin-right: 50px;
     border-style: none;
     border-radius: 10px;
+
+
 }
 
 .tours-section-right {
-    display: inline-flex;
+    position: relative;
+    justify-content: center;
 }
 
 .tours-section-right-photo {
     height: 665px;
     width: 473px;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 70%;
-    transform: translate(-50%, -50%);
+    transform: translate(-10%, -90%);
     z-index: -1;
 }
 
