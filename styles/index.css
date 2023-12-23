@@ -8,12 +8,20 @@ body {
     font-family: "Poppins", "Volkhov";
 }
 
+.homepage-tours-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .tours-section-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 300px;
+
+
     padding-top: 100px;
     transform: translate(-20%, -0%);
 }
@@ -56,6 +64,7 @@ body {
 .tours-section-left-down {
     display: inline-block;
     position: relative;
+    transform: translate(18%, 0%);
 }
 
 .orange-price-tickets {
@@ -63,7 +72,7 @@ body {
     display: flex;
     text-align: center;
     gap: 165px;
-    padding-inline-start: 100px;
+    padding-inline-start: 80px;
     z-index: 1;
     margin-top: 10px;
 }
@@ -82,19 +91,45 @@ body {
 .tours-section-left-down-photos {
     display: flex;
     z-index: 0;
-    margin-left: 20px;
+
 
 }
 
-.tours-photos {
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
     width: 200px;
     height: 200px;
     display: inline-flex;
     margin-right: 50px;
     border-style: none;
     border-radius: 10px;
+    flex-shrink: 0;
+    background-size: cover;
+    /* Resmi kaplaması için */
+    background-position: center;
+    /* Resmi ortalamak için */
+}
 
+.photo1 {
+    border-radius: 10px;
+    background-image: url("/images/tower.jpeg");
+}
 
+.photo2 {
+    border-radius: 10px;
+    background-image: url("/images/scenery.jpeg");
+}
+
+.photo3 {
+    border-radius: 10px;
+    background-image: url("/images/coliseum.jpeg");
+}
+
+.photo4 {
+    border-radius: 10px;
+    background-image: url("/images/palace.jpeg");
 }
 
 .tours-section-right {
@@ -103,13 +138,22 @@ body {
 }
 
 .tours-section-right-photo {
+    background-image: url(/images/eiffel.jpeg);
+    background-size: cover;
+    background-position: start;
     height: 665px;
     width: 473px;
+    flex-shrink: 0;
     position: absolute;
-    top: 10%;
-    left: 70%;
-    transform: translate(-10%, -90%);
+    top: 90%;
+    left: 50%;
+    transform: translate(-40%, -90%);
     z-index: -1;
+    border-top-left-radius: 330px;
+    /* Sol üst köşe */
+    border-top-right-radius: 330px;
+    /* Sağ üst köşe */
+    overflow: hidden;
 }
 
 .homepage-tours-section {
