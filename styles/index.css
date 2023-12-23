@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    display: flex;
+    background-image: url(/images/about/about-header-img.png);
+    height: 100vh;
+    /* 100% of the viewport height */
+    width: 100vw;
+    /* 100% of the viewport width */
+    background-size: cover;
+    color: #FFEFEC;
+}
+
+.readaboutus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.read {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    transform: translate(0%, 150%);
+    color: #FFEFEC;
+}
+
+.about_us {
+    font-family: Yesteryear;
+    font-size: 157px;
+    font-weight: 400;
+    line-height: 224px;
+    letter-spacing: 0em;
+    font-family: 'Yesteryear', monospace;
+}
+
+.upmenu {
+    position: fixed;
+    width: 20%;
+    top: 0;
+}
+
+.menutext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
