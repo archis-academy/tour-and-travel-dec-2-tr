@@ -1,6 +1,8 @@
 .main-explore {
-    display: inline-flex;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ekran yüksekliğinin tamamını kaplamak için */
 }
 
 .left-png {
@@ -14,20 +16,20 @@
 }
 
 .left-explore-area {
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 40%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
     color: white;
 }
 
 .right-explore-area {
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 40%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
     color: white;
 }
 
