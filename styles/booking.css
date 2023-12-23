@@ -79,6 +79,12 @@
   text-transform: capitalize;
   padding: 40px 20px;
 }
+.filter-item h4 {
+  padding-left: 10px;
+}
+.filter-item i {
+  font-size: 26px;
+}
 .booking-filter-items {
   display: flex;
   margin-bottom: 20px;
@@ -122,8 +128,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 60px;
-  row-gap: 20px;
+  column-gap: 20px;
+  row-gap: 10px;
+  justify-content: center;
+}
+.card-1 {
+  border-radius: 21px;
+  background: #fff;
+  box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
+}
+.card-1 .booking-card-img img {
+  border-radius: 15px 15px 0 0;
 }
 .booking-area {
   display: flex;
@@ -131,6 +146,7 @@
 }
 .booking-card {
   width: 350px;
+  padding: 25px;
 }
 
 .booking-card-img {
@@ -146,15 +162,22 @@
 .img-info-date {
   display: flex;
   background: #df6951;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
 }
-
+.img-info-date span {
+  margin-right: 8px;
+}
 .img-info-date div {
   display: flex;
   margin: 5px 18px;
   align-items: center;
   justify-content: center;
 }
-
+.booking-img-info {
+  padding-left: 10px;
+}
 .booking-img-info h3 {
   color: #181e4b;
   font-family: Volkhov;
@@ -211,6 +234,7 @@
 }
 .search-items {
   background: #ededed;
+  padding: 10px 30px;
 }
 
 .search-info h3 {
@@ -255,7 +279,7 @@
   padding-left: 10px;
 }
 .price-filter {
-  margin-left: 14px;
+  margin: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -275,6 +299,11 @@
 .price-filter input[type="range"] {
   width: 100%;
 }
+
+.price-filter input[type="range"]::-webkit-slider-runnable-track {
+  margin: 10px 0;
+}
+
 .price-filter button {
   border-radius: 10px;
   margin-top: 10px;
@@ -284,7 +313,8 @@
   padding: 16px 46.561px 15.416px 47px;
   align-self: center;
   border: none;
-  margin-bottom: 30px;
+  color: white;
+  font-weight: 700;
 }
 .price-filter p {
   color: rgba(0, 0, 0, 0.56);
@@ -299,9 +329,7 @@
 }
 .footer-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 120px 0 20px 0;
+  margin: 120px 0 50px 0;
 }
 
 .footer-item {
@@ -319,7 +347,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px; 
   letter-spacing: -0.32px;
 }
 
@@ -334,7 +362,7 @@
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 114.286% */
+  line-height: 24px; 
 }
 
 .footer-company ul li {
