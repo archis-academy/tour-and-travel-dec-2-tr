@@ -1,0 +1,47 @@
+.main_wanderlust {
+    display: flex;
+    background-image: url(/images/about/womansea.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-position: top;
+    z-index: -1;
+
+}
+
+.main_wanderlust::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Siyah ve %50 saydam karartma */
+}
+
+.wanderlust_text {
+    font-family: "Yesteryear", monospace;
+    font-size: 157px;
+    font-weight: 400;
+    line-height: 224px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+    z-index: 0;
+}
+
+.wanderlust_logo {
+    background-image: url(/images/about/ant-design_play-circle-filled.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    transform: translate(-350px, 260px);
+    background-size: 90%;
+    z-index: 1;
+}
