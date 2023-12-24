@@ -25,7 +25,7 @@
 }
 
 .read {
-    font-family: Poppins;
+    font-family: "Poppins", monospace;
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
@@ -43,14 +43,50 @@
     font-family: 'Yesteryear', monospace;
 }
 
+
+
+
 .upmenu {
+    display: inline-flex;
     position: fixed;
-    width: 20%;
-    top: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 277px;
+    padding-right: 277px;
+    padding-top: 63px;
+    padding-bottom: 63px;
 }
 
 .menutext {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.traveltext {
+    width: 150px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-image: url(/images/logo.png);
+}
+
+.menudetails {
+    font-family: "Poppins", monospace;
+    padding: 15px;
+}
+
+.buttongetintouch {
+    width: 152px;
+    height: 58px;
+    text-align: center;
+    justify-content: center;
+    background-color: #DF6951;
+    border-radius: 10px;
+    font-family: "Poppins", monospace;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding: 15px;
 }
