@@ -329,11 +329,24 @@
 }
 .footer-container {
   display: flex;
-  margin: 120px 0 50px 0;
+  width: 60%;
+  padding-bottom: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 120px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.footer-item {
-  margin: 0 120px;
+.footer h5 {
+  text-align: center;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
 }
 
 .footer-logo ul {
@@ -347,7 +360,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; 
+  line-height: 28px;
   letter-spacing: -0.32px;
 }
 
@@ -362,7 +375,7 @@
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .footer-company ul li {
