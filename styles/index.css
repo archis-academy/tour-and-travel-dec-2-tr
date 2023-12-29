@@ -1,0 +1,70 @@
+.main-explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ekran yüksekliğinin tamamını kaplamak için */
+}
+
+.left-png {
+    filter: brightness(50%);
+    /* Ayarlanabilir değerler */
+}
+
+.right-png {
+    filter: brightness(50%);
+    /* Ayarlanabilir değerler */
+}
+
+.left-explore-area {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    color: white;
+}
+
+.right-explore-area {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    color: white;
+}
+
+.explore-area-promotion {
+    color: #FFEFEC;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.explore-area-title {
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+}
+
+.explore-area-button {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    background-color: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: #FFEFEC;
+    border-style: solid;
+}
