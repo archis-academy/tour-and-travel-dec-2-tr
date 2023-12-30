@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+
+    background-image: url(/images/about/h1-background-img-1\ 1.png);
+    width: 1900px;
+    height: 1280px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footertexts {
+    padding-top: 125px;
+}
+
+.footer-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #DF6951;
+}
+
+.footer-text2 {
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #181E4B;
+}
+
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerboxphoto {
+    background-image: url(/images/testimonial-section-box-pp-img.png);
+    width: 170px;
+    height: 170px;
+    background-repeat: no-repeat;
+    transform: translate(870px, 0px);
+    z-index: +1;
+}
+
+.footerboxwhitebox {
+    transform: translate(680px, -100px);
+    background-color: white;
+    width: 538px;
+    height: 277px;
+    padding-top: 100px;
+    border-radius: 25px;
+}
+
+.footerboxtext {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.footerboxtextname {
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.footerboxquotepng {
+    background-image: url(/images/testimonial-box-quotes.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    transform: translate(50px, -170px);
+    z-index: +1;
+}
+
+.footerarrows {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-48px, -250px);
+    width: 600px;
+    cursor: pointer;
+}
+
+
+.footerleftarrow {
+    background-image: url(/images/arrow-leeft-icon.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.footerrightarrow {
+    background-image: url(/images/arrow-right-icon.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.footerlastphoto {
+    background-image: url(/images/testimonial-section-hat-img.png);
+    width: 300px;
+    height: 289px;
+    transform: translate(-700px, -343px);
+    background-repeat: no-repeat;
+    z-index: +1;
+}
