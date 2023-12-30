@@ -1,0 +1,119 @@
+* {
+    font-family: Poppins, monospace;
+}
+
+.foto-satirlar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foto-satir {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu {
+    width: 363px;
+    height: 363px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.img-name {
+    display: block;
+    margin-top: 5px;
+    /* İstediğiniz boşluğu ayarlayın */
+    font-weight: bold;
+}
+
+
+
+.foto-kutu-uzun {
+    width: 363px;
+    height: 745px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu-uzun img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.img-name {
+    display: block;
+    margin-top: 5px;
+    /* İstediğiniz boşluğu ayarlayın */
+    font-weight: bold;
+}
+
+.foto-kutu-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    transform: translate(0px, -50px);
+    font-size: 20px;
+}
+
+.foto-satir2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* İstediğiniz boşluğu ayarlayın */
+    transform: translate(0px, -382px);
+    z-index: -1;
+}
+
+.foto-kutu2 {
+    width: 363px;
+    height: 363px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.packages-title {
+    justify-content: center;
+    text-align: center;
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.packages-sec-title {
+    justify-content: center;
+    text-align: center;
+    color: #181E4B;
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+    padding-bottom: 50px;
+}
