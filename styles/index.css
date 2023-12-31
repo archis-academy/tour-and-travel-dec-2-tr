@@ -3,6 +3,359 @@ body {
     justify-content: center;
 }
 
+
+.mainall {}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    display: flex;
+    background-image: url(/images/about/about-header-img.png);
+    height: 100vh;
+    /* 100% of the viewport height */
+    width: 100vw;
+    /* 100% of the viewport width */
+    background-size: cover;
+    color: #FFEFEC;
+}
+
+.readaboutus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.read {
+    font-family: "Poppins", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    transform: translate(0%, 150%);
+    color: #FFEFEC;
+}
+
+.about_us {
+    font-family: Yesteryear;
+    font-size: 157px;
+    font-weight: 400;
+    line-height: 224px;
+    letter-spacing: 0em;
+    font-family: 'Yesteryear', monospace;
+}
+
+
+
+
+.upmenu {
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 277px;
+    padding-right: 277px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+
+.menutext {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.traveltext {
+    width: 150px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-image: url(/images/logo.png);
+}
+
+.menudetails {
+    font-family: "Poppins", monospace;
+    padding: 15px;
+}
+
+.buttongetintouch {
+    width: 152px;
+    height: 58px;
+    text-align: center;
+    justify-content: center;
+    background-color: #DF6951;
+    border-radius: 10px;
+    font-family: "Poppins", monospace;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding: 15px;
+}
+
+.promotion_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.promotion_photo {
+    background-image: url(/images/about/about-context-img01.png);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_text_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo_title {
+    padding-bottom: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #DF6951
+}
+
+.weprovide {
+    padding-bottom: 20px;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B
+}
+
+.promo_text {
+    padding-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.promo_button {
+    padding-bottom: 20px;
+    background: #DF6951;
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 1282px;
+    left: 277px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    gap: 10.45px;
+}
+
+
+.main_wanderlust {
+    display: flex;
+    background-image: url(/images/about/Rectangle\ 19353.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 595px;
+    justify-content: center;
+    text-align: center;
+    background-position: top;
+    z-index: -1;
+
+}
+
+.main_wanderlust::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 595px;
+    transform: translate(0px, 1820px);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Siyah ve %50 saydam karartma */
+}
+
+.wanderlust_text {
+    font-family: "Yesteryear", monospace;
+    font-size: 157px;
+    font-weight: 400;
+    line-height: 224px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+    z-index: 0;
+}
+
+.wanderlust_logo {
+    background-image: url(/images/about/ant-design_play-circle-filled.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    transform: translate(-350px, 260px);
+    background-size: 90%;
+    z-index: 1;
+}
+
+.main_tour_plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.tour_plans_bigphoto {
+    background-image: url(/images/about/about-trend-img.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 700px;
+    transform: translate(-100px, 0px);
+
+}
+
+.tour_plans_text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: flex-start;
+    /* İçerikleri solda hizala */
+    justify-content: flex-start;
+    /* Gerekirse dikeyde üste hizala */
+}
+
+.tour_plans_photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+
+}
+
+.tour_photo1 {
+    background-image: url(/images/about/about-statistic-img01.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+}
+
+.tour_photo2 {
+    background-image: url(/images/about/about-statistic-img02.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+
+}
+
+.tour_photo3 {
+    background-image: url(/images/about/about-statistic-img03.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+
+
+.tour_texts {
+    display: flex;
+    text-align: center;
+
+    color: #181E4B;
+
+    font-family: Poppins, monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.one_text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #DF6951;
+
+}
+
+.two_text {
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+
+}
+
+.three_text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.shellphoto {
+    background-image: url(/images/about/about-trend-shell-img.png);
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 255px;
+    flex-shrink: 0;
+    transform: translate(1600px, -700px);
+    z-index: +2;
+    position: absolute;
+}
+
+.about-page-packages {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.footermain {
+    transform: translate(0px, -300px);
+}
+
 .footer {
 
     background-image: url(/images/about/h1-background-img-1\ 1.png);
@@ -10,6 +363,7 @@ body {
     height: 900px;
     background-repeat: no-repeat;
     background-size: auto;
+    justify-content: center;
 }
 
 .footertexts {
@@ -41,6 +395,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
 }
 
 .footerboxphoto {
@@ -298,4 +653,124 @@ body {
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
+}
+
+* {
+    font-family: Poppins, monospace;
+}
+
+.foto-satirlar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foto-satir {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu {
+    width: 363px;
+    height: 363px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.img-name {
+    display: block;
+    margin-top: 5px;
+    /* İstediğiniz boşluğu ayarlayın */
+    font-weight: bold;
+}
+
+
+
+.foto-kutu-uzun {
+    width: 363px;
+    height: 745px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.foto-kutu-uzun img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.img-name {
+    display: block;
+    margin-top: 5px;
+    /* İstediğiniz boşluğu ayarlayın */
+    font-weight: bold;
+}
+
+.foto-kutu-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    transform: translate(0px, -50px);
+    font-size: 20px;
+}
+
+.foto-satir2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* İstediğiniz boşluğu ayarlayın */
+    transform: translate(0px, -382px);
+    z-index: -1;
+}
+
+.foto-kutu2 {
+    width: 363px;
+    height: 363px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 10px;
+    /* İstediğiniz boşluğu ayarlayın */
+}
+
+.packages-title {
+    justify-content: center;
+    text-align: center;
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.packages-sec-title {
+    justify-content: center;
+    text-align: center;
+    color: #181E4B;
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+    padding-bottom: 50px;
 }
