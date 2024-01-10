@@ -60,9 +60,11 @@
   line-height: 223.678px; /* 142.085% */
 }
 .booking-container {
-  width: 1300px;
+  width: 1350px;
   margin: 0 auto;
   transform: translateY(-60px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
 }
 .filter-item {
   flex: 1;
@@ -128,25 +130,39 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 20px;
+  column-gap: 15px;
   row-gap: 10px;
   justify-content: center;
 }
-.card-1 {
+
+.booking-card:hover {
+  zoom: 1.005;
+  border-radius: 21px;
+  background: #fff;
+  box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
+}
+.booking-card img:hover {
+  border-radius: 20px 20px 0 0;
+}
+.booking-card img {
+  transition: all 0.6s ease;
+}
+/* .card-1 {
   border-radius: 21px;
   background: #fff;
   box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
 }
 .card-1 .booking-card-img img {
   border-radius: 15px 15px 0 0;
-}
+} */
 .booking-area {
   display: flex;
   gap: 15px;
 }
 .booking-card {
   width: 350px;
-  padding: 25px;
+  padding: 15px;
+  transition: all 0.3s ease;
 }
 
 .booking-card-img {
@@ -229,12 +245,11 @@
 }
 
 .booking-search-area {
-  width: 30%;
   margin-right: 50px;
 }
 .search-items {
   background: #ededed;
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 
 .search-info h3 {
@@ -296,14 +311,6 @@
   text-transform: capitalize;
 }
 
-.price-filter input[type="range"] {
-  width: 100%;
-}
-
-.price-filter input[type="range"]::-webkit-slider-runnable-track {
-  margin: 10px 0;
-}
-
 .price-filter button {
   border-radius: 10px;
   margin-top: 10px;
@@ -325,7 +332,16 @@
   line-height: 26px;
 }
 .booking-container-img {
-  transform: translate(-250px, 190px);
+  position: absolute;
+  z-index: -1;
+  bottom: 400px;
+  right: 10px;
+}
+.booking-img-1 {
+  position: absolute;
+  z-index: -1;
+  right: -250px;
+  top: 290px;
 }
 .footer-container {
   display: flex;
@@ -445,4 +461,29 @@
   line-height: 26px;
   letter-spacing: -0.32px;
   opacity: 0.8;
+}
+
+.input-range {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  background: white;
+}
+.input-range input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  accent-color: red;
+  -webkit-appearance: none;
+  background: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #df6951;
 }

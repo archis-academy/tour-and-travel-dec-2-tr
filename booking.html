@@ -30,30 +30,182 @@
   <body>
     <!-- ENGIN - TO-01 TRIP BOOKINGS -->
     <header class="main-header">
-      <div class="homepage-header-container">
-        <div class="header-menu">
-          <div class="header-menu-logo">
-            <img src="/images/logo.png" alt="" />
-          </div>
-          <div class="header-menu-navbar">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Upcomming Upgrades</a></li>
-            </ul>
-          </div>
-          <div class="header-button">
-            <button>Get in Touch</button>
+      <nav class="header-menu no-blur container">
+        <div class="header-menu-logo no-blur">
+          <img src="/images/logo.png" alt="" />
+        </div>
+        <div class="header-menu-navbar no-blur">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a id="toggle-menu-link" href="#">Services</a>
+              <div id="toggle-menu" class="toggle-menu-container">
+                <ul class="toggle-menu">
+                  <li><a href="#">Honeymoon Packages</a></li>
+                  <li><a href="#">Tours Packages</a></li>
+                  <li><a href="#">Musical Events</a></li>
+                  <li><a href="#">Build Package</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Upcomming Upgrades</a></li>
+          </ul>
+        </div>
+        <div class="header-button no-blur">
+          <button type="button" id="package-plan-button">Get in Touch</button>
+        </div>
+      </nav>
+    </header>
+    <div id="package-menu" class="popup-menu-container">
+      <div class="package-menu">
+        <div class="package-close">
+          <a id="package-menu-close" href="#">
+            <i class="fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <div class="package-title"><h2>Build Your Own Package</h2></div>
+        <div class="package-input-area">
+          <div class="input-title">
+            <h5>Enter destination (country, region or city)</h5>
+            <div class="input">
+              <input placeholder="Switzerland" type="text" name="" id="" />
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
           </div>
         </div>
-        <div class="header-text">
-          <h2>SEARCH TOUR</h2>
-          <h1>Travel With Us</h1>
+        <div class="package-input-area">
+          <div class="input-title">
+            <h5>Enter destination (country, region or city)</h5>
+            <div class="input">
+              <input placeholder="Lauterbrunen" type="text" name="" id="" />
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+          </div>
+        </div>
+        <div class="add-destination">
+          <a href="#">+ Add Destination</a>
+        </div>
+        <div class="package-input-area input-date">
+          <div class="inputs-box">
+            <div class="input-date-area date-1">
+              <h5>Date Range</h5>
+              <input type="date" name="" id="" />
+            </div>
+          </div>
+          <div class="input-date-area date-2">
+            <h5>Guests</h5>
+            <div class="person-piece">
+              <select name="" id="">
+                <option value="" disabled selected>Guest</option>
+                <option value="1">1 Adult</option>
+                <option value="1">2 Adult</option>
+                <option value="1">3 Adult</option>
+                <option value="1">4 Adult</option>
+                <option value="1">5 Adult</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="add-destination">
+          <a href="#">Activities preferences (optional)</a>
+        </div>
+        <div class="checkbox-input">
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Culture" type="checkbox" />
+              <label for="Culture">Culture</label>
+            </div>
+            <div class="check-content">
+              <input id="Romantic" type="checkbox" />
+              <label for="Romantic">Romantic</label>
+            </div>
+            <div class="check-content">
+              <input id="Shopping" type="checkbox" />
+              <label for="Shopping">Shopping</label>
+            </div>
+            <div class="check-content">
+              <input id="Traditions" type="checkbox" />
+              <label for="Traditions">Traditions</label>
+            </div>
+            <div class="check-content">
+              <input id="Guide" type="checkbox" />
+              <label for="Guide">Guide</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Outdoors" type="checkbox" />
+              <label for="Outdoors">Outdoors</label>
+            </div>
+            <div class="check-content">
+              <input id="Religious" type="checkbox" />
+              <label for="Religious">Religious</label>
+            </div>
+            <div class="check-content">
+              <input id="Business" type="checkbox" />
+              <label for="Business">Business</label>
+            </div>
+            <div class="check-content">
+              <input id="Walks" type="checkbox" />
+              <label for="Walks">Walks</label>
+            </div>
+            <div class="check-content">
+              <input id="Healthcare" type="checkbox" />
+              <label for="Healthcare">Healthcare</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Relaxing" type="checkbox" />
+              <label for="Relaxing">Relaxing</label>
+            </div>
+            <div class="check-content">
+              <input id="Hiking" type="checkbox" />
+              <label for="Hiking">Hiking</label>
+            </div>
+            <div class="check-content">
+              <input id="Museams" type="checkbox" />
+              <label for="Museams">Museams</label>
+            </div>
+            <div class="check-content">
+              <input id="FIshing" type="checkbox" />
+              <label for="FIshing">Fishing</label>
+            </div>
+            <div class="check-content">
+              <input id="Accomodation" type="checkbox" />
+              <label for="Accomodation">Accomodation</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Wildlife" type="checkbox" />
+              <label for="Wildlife">Wildlife</label>
+            </div>
+            <div class="check-content">
+              <input id="Musical" type="checkbox" />
+              <label for="Musical">Musical</label>
+            </div>
+            <div class="check-content">
+              <input id="Party" type="checkbox" />
+              <label for="Party">Party</label>
+            </div>
+            <div class="check-content">
+              <input id="Cruise" type="checkbox" />
+              <label for="Cruise">Cruise</label>
+            </div>
+          </div>
+          <div class="overlay-button">
+            <button>Build Package</button>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+
     <div class="booking-container">
+      <div class="booking-img-1">
+        <img src="/images/shell.png" alt="" />
+      </div>
       <div class="booking-filter-items">
         <div class="filter-item">
           <i class="fa-solid fa-calendar"></i>
@@ -273,15 +425,20 @@
             </div>
             <div class="price-filter">
               <h4>Filter By Price</h4>
-              <input type="range" />
+
+              <div class="input-range">
+                <input type="range" min="12" max="3600" value="12" />
+                <input type="range" min="12" max="3600" value="3600" />
+              </div>
+
               <p>Price:$12-$3600</p>
               <button type="submit">Book Now</button>
             </div>
           </div>
-          <div class="booking-container-img">
-            <img src="/images/booking-img.png" alt="" />
-          </div>
         </div>
+      </div>
+      <div class="booking-container-img">
+        <img src="/images/booking-img.png" alt="" />
       </div>
     </div>
 
@@ -342,5 +499,6 @@
       </div>
       <h5>Copyright @ Xpro 2022. All Rights Reserved.</h5>
     </footer>
+    <script src="booking.js"></script>
   </body>
 </html>
