@@ -1,0 +1,178 @@
+.country {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 100px;
+}
+
+.trendy {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #DF6951;
+}
+
+.header {
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #181E4B;
+    padding-bottom: 25px;
+}
+
+.cards {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.country-logo {
+    transform: translate(0px, -65px);
+}
+
+.country-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-country-infos {
+    transform: translate(0px, -100px);
+}
+
+.stars {
+    display: flex;
+    justify-content: end;
+    /* Yıldızları sağa hizala */
+    align-items: center;
+    /* Dikeyde ortalamak için */
+    padding-left: 150px;
+}
+
+.country-calendar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+.calendar-text {
+    padding-left: 10px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.country-people-going {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.countryname-and-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.countryname {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.location-and-text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.location-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7D7D7D;
+    padding-left: 10px;
+
+}
+
+.dolars {
+    display: flex;
+    flex-direction: row;
+}
+
+.dolar-now {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DF6951;
+    padding-right: 20px;
+
+}
+
+.dolar-before {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7D7D7D;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.country-explanation {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+}
+
+.countrybutton {
+    background: #DF6951;
+    width: 135px;
+    height: 43px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.button-country-area {
+    padding-top: 25px;
+}
+
+.calendar-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7D7D7D;
+}
