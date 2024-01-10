@@ -1,0 +1,59 @@
+.resort-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 50px;
+}
+
+.resort-row-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.resort-col-row {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.resort-col-title1 {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.resort-col-title2 {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0 30px 0;
+}
+.resort-row-info p {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%; /* 19.92px */
+}
+.resort-row-info h5 {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%; /* 19.92px */
+}
+
+.resort-row-info img {
+  height: 47px;
+  width: 48px;
+}
