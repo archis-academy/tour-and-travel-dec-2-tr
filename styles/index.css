@@ -1,0 +1,14 @@
+.homepage-partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  gap: 10px;
+}
+
+.partners img {
+  height: 50px;
+  opacity: 0.64;
+  filter: grayscale(100%);
+  background-size: cover;
+}
