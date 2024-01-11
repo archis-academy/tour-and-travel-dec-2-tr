@@ -10,8 +10,6 @@
   overflow: hidden;
 }
 
-
-
 /* CONTENT AND SEARCH MENU  */
 .header-content {
   margin: 150px auto;
@@ -123,4 +121,123 @@ input::placeholder {
   position: absolute;
   bottom: -210px;
   left: 30px;
+}
+
+.homepage-services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-title {
+  text-align: center;
+}
+
+.services-title h3 {
+  color: #df6951;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+}
+
+.services-title h2 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.services-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 130px;
+  margin-top: 50px;
+}
+
+.services-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.services-col-2 {
+  position: relative;
+  box-shadow: 19px 38px 71px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 36px;
+  background-color: white;
+  padding: 45px 35px;
+}
+.services-col-img {
+  position: relative;
+}
+
+.services-img-box {
+  width: 50px;
+  height: 50px;
+  background-color: #fff1da;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  top: 35px;
+  right: -15px;
+  z-index: -1;
+}
+.services-col-airplane-img {
+  position: relative;
+  z-index: 1;
+}
+.services-img-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #df6951;
+  position: absolute;
+  border-radius: 30px;
+  bottom: -30px;
+  left: -30px;
+  z-index: -2;
+}
+.services-img-box-3 {
+  width: 50px;
+  height: 50px;
+  background-color: #fff1da;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  left: -10px;
+  top: 16px;
+  z-index: 0;
+}
+
+.services-col-title {
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: #1e1d4c;
+  line-height: normal;
+}
+
+.services-col-title-2 {
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: #1e1d4c;
+  line-height: normal;
+}
+
+.services-col-info {
+  color: #5e6282;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
 }
