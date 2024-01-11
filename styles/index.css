@@ -1,9 +1,9 @@
 .resort-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 300px;
-  margin-top: 50px;
+  justify-content: space-between;
+  max-width: 1450px;
+  margin: 80px auto;
 }
 
 .resort-row-info {
