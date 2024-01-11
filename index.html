@@ -3,7 +3,326 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tour and Travel</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;700&family=Prompt:wght@400;500;700&family=Roboto:wght@100;300;400;700&family=Varela&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header id="header" class="homepage-header">
+      <nav class="header-menu no-blur container">
+        <div class="header-menu-logo no-blur">
+          <img src="/images/logo.png" alt="" />
+        </div>
+        <div class="header-menu-navbar no-blur">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a target="_blank" href="/booking.html">Search Tour</a></li>
+            <li>
+              <a id="toggle-menu-link" href="#">Services</a>
+              <div id="toggle-menu" class="toggle-menu-container">
+                <ul class="toggle-menu">
+                  <li><a href="#">Honeymoon Packages</a></li>
+                  <li><a href="#">Tours Packages</a></li>
+                  <li><a href="#">Musical Events</a></li>
+                  <li><a href="#">Build Package</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Upcomming Upgrades</a></li>
+          </ul>
+        </div>
+        <div class="header-button no-blur">
+          <button type="button" id="package-plan-button">Get in Touch</button>
+        </div>
+      </nav>
+
+      <div class="container header-content">
+        <div class="header-content-img">
+          <img src="/images/Vector-1.png" alt="" />
+        </div>
+        <div class="header-content-title">
+          <h1>
+            No matter where <br />
+            you’re going to, we’ll <br />
+            take you there
+          </h1>
+        </div>
+        <div class="content-search-box">
+          <div class="search-box-item">
+            <input type="search" placeholder="Where to?" id="search-area" />
+          </div>
+          <div class="search-box-item">
+            <img src="/images/line.png" alt="" />
+          </div>
+          <div class="search-box-item">
+            <select name="" id="travel-type">
+              <option value="" disabled selected hidden>Travel Type</option>
+              <option value="1">Tourist</option>
+              <option value="2">Honeymoon</option>
+              <option value="3">Vacation</option>
+            </select>
+          </div>
+          <div class="search-box-item">
+            <img src="/images/line.png" alt="" />
+          </div>
+          <div class="search-box-item">
+            <select name="" id="duration">
+              <option value="" disabled selected hidden>Duration</option>
+              <option value="1">1 week</option>
+              <option value="2">2 week</option>
+              <option value="3">3 week</option>
+            </select>
+          </div>
+          <div class="search-box-item">
+            <button class="search-button">Submit</button>
+          </div>
+        </div>
+        <div class="content-people">
+          <div class="people-avatar">
+            <img src="/images/user-avatar1.png" alt="" />
+            <img src="/images/user-avatar2.png" alt="" />
+            <img src="/images/user-avatar3.png" alt="" />
+            <img src="/images/user-avatar4.png" alt="" />
+            <img src="/images/user-avatar5.png" alt="" />
+            <img src="/images/user-avatar6.png" alt="" />
+            <img src="/images/user-avatar-emty.png" alt="" />
+            <div class="plus-img"><img src="/images/plus.png" alt="" /></div>
+          </div>
+          <div class="people-text">
+            2,500 people booked Tommorowland Event in last 24 hours
+          </div>
+        </div>
+      </div>
+
+      <div class="header-scroll">
+        <img src="/images/scroll.png" alt="" />
+      </div>
+    </header>
+
+    <!-- TO-57 HOMEPAGE-SERVİCES -->
+    <div class="homepage-services-container">
+      <div class="services-title">
+        <h3>CATEGORY</h3>
+        <h2>We Offer Best Services</h2>
+      </div>
+
+      <div class="services-row">
+        <div class="services-col services-col-1">
+          <div class="services-col-img">
+            <img src="/images/homepage-services-human.png" alt="" />
+            <div class="services-img-box"></div>
+          </div>
+          <div class="services-col-text">
+            <h3 class="services-col-title">Guided Tours</h3>
+            <p class="services-col-info">
+              sunt qui repellat saepe<br />
+              quo velit aperiam id<br />
+              aliquam placeat.
+            </p>
+          </div>
+        </div>
+        <div class="services-col services-col-2">
+          <div class="services-img-box-2"></div>
+          <div class="services-col-img">
+            <img
+              class="services-col-airplane-img"
+              src="/images/homepage-services-plane.png"
+              alt=""
+            />
+            <div class="services-img-box-3"></div>
+          </div>
+          <div class="services-col-text">
+            <h3 class="services-col-title-2">Best Flights Options</h3>
+            <p class="services-col-info">
+              sunt qui repellat saepe<br />
+              quo velit aperiam id<br />
+              aliquam placeat.
+            </p>
+          </div>
+        </div>
+        <div class="services-col services-col-3">
+          <div class="services-col-img">
+            <img src="/images/homepage-services-hands.png" alt="" />
+            <div class="services-img-box"></div>
+          </div>
+          <div class="services-col-text">
+            <h3 class="services-col-title">Religious Tours</h3>
+            <p class="services-col-info">
+              sunt qui repellat saepe<br />
+              quo velit aperiam id<br />
+              aliquam placeat.
+            </p>
+          </div>
+        </div>
+        <div class="services-col services-col-4">
+          <div class="services-col-img">
+            <img src="/images/homepage-services-medical.png" alt="" />
+            <div class="services-img-box"></div>
+          </div>
+          <div class="services-col-text">
+            <h3 class="services-col-title">Medical insurance</h3>
+            <p class="services-col-info">
+              sunt qui repellat saepe<br />
+              quo velit aperiam id<br />
+              aliquam placeat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="package-menu" class="popup-menu-container">
+      <div class="package-menu">
+        <div class="package-close">
+          <a id="package-menu-close" href="#">
+            <i class="fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <div class="package-title"><h2>Build Your Own Package</h2></div>
+        <div class="package-input-area">
+          <div class="input-title">
+            <h5>Enter destination (country, region or city)</h5>
+            <div class="input">
+              <input placeholder="Switzerland" type="text" name="" id="" />
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+          </div>
+        </div>
+        <div class="package-input-area">
+          <div class="input-title">
+            <h5>Enter destination (country, region or city)</h5>
+            <div class="input">
+              <input placeholder="Lauterbrunen" type="text" name="" id="" />
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+          </div>
+        </div>
+        <div class="add-destination">
+          <a href="#">+ Add Destination</a>
+        </div>
+        <div class="package-input-area input-date">
+          <div class="inputs-box">
+            <div class="input-date-area date-1">
+              <h5>Date Range</h5>
+              <input type="date" name="" id="" />
+            </div>
+          </div>
+          <div class="input-date-area date-2">
+            <h5>Guests</h5>
+            <div class="person-piece">
+              <select name="" id="">
+                <option value="" disabled selected>Guest</option>
+                <option value="1">1 Adult</option>
+                <option value="1">2 Adult</option>
+                <option value="1">3 Adult</option>
+                <option value="1">4 Adult</option>
+                <option value="1">5 Adult</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="add-destination">
+          <a href="#">Activities preferences (optional)</a>
+        </div>
+        <div class="checkbox-input">
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Culture" type="checkbox" />
+              <label for="Culture">Culture</label>
+            </div>
+            <div class="check-content">
+              <input id="Romantic" type="checkbox" />
+              <label for="Romantic">Romantic</label>
+            </div>
+            <div class="check-content">
+              <input id="Shopping" type="checkbox" />
+              <label for="Shopping">Shopping</label>
+            </div>
+            <div class="check-content">
+              <input id="Traditions" type="checkbox" />
+              <label for="Traditions">Traditions</label>
+            </div>
+            <div class="check-content">
+              <input id="Guide" type="checkbox" />
+              <label for="Guide">Guide</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Outdoors" type="checkbox" />
+              <label for="Outdoors">Outdoors</label>
+            </div>
+            <div class="check-content">
+              <input id="Religious" type="checkbox" />
+              <label for="Religious">Religious</label>
+            </div>
+            <div class="check-content">
+              <input id="Business" type="checkbox" />
+              <label for="Business">Business</label>
+            </div>
+            <div class="check-content">
+              <input id="Walks" type="checkbox" />
+              <label for="Walks">Walks</label>
+            </div>
+            <div class="check-content">
+              <input id="Healthcare" type="checkbox" />
+              <label for="Healthcare">Healthcare</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Relaxing" type="checkbox" />
+              <label for="Relaxing">Relaxing</label>
+            </div>
+            <div class="check-content">
+              <input id="Hiking" type="checkbox" />
+              <label for="Hiking">Hiking</label>
+            </div>
+            <div class="check-content">
+              <input id="Museams" type="checkbox" />
+              <label for="Museams">Museams</label>
+            </div>
+            <div class="check-content">
+              <input id="FIshing" type="checkbox" />
+              <label for="FIshing">Fishing</label>
+            </div>
+            <div class="check-content">
+              <input id="Accomodation" type="checkbox" />
+              <label for="Accomodation">Accomodation</label>
+            </div>
+          </div>
+          <div class="checkbox-col">
+            <div class="check-content">
+              <input id="Wildlife" type="checkbox" />
+              <label for="Wildlife">Wildlife</label>
+            </div>
+            <div class="check-content">
+              <input id="Musical" type="checkbox" />
+              <label for="Musical">Musical</label>
+            </div>
+            <div class="check-content">
+              <input id="Party" type="checkbox" />
+              <label for="Party">Party</label>
+            </div>
+            <div class="check-content">
+              <input id="Cruise" type="checkbox" />
+              <label for="Cruise">Cruise</label>
+            </div>
+          </div>
+          <div class="overlay-button">
+            <button>Build Package</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
