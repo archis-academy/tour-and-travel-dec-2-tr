@@ -5,36 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.header-menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 20px;
-}
-
-.header-menu-navbar ul {
-  display: flex;
-}
-
-.header-menu-navbar ul li {
-  margin: 18px;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #fff;
-}
-
-.header-button button {
-  padding: 18px 26px;
-  border-radius: 14px;
-  background-color: #df6951;
-  color: #fff;
-  outline: none;
-  border: none;
-  font-size: 17px;
-  font-weight: 500;
-  grid-area: button;
-}
 
 .header-text {
   text-align: center;
@@ -335,7 +305,7 @@
   position: absolute;
   z-index: -1;
   bottom: 400px;
-  right: 10px;
+  right: 0;
 }
 .booking-img-1 {
   position: absolute;
