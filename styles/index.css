@@ -122,6 +122,21 @@ input::placeholder {
   bottom: -210px;
   left: 30px;
 }
+.homepage-partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  gap: 10px;
+  margin-bottom: 110px;
+}
+
+.partners img {
+  height: 50px;
+  opacity: 0.64;
+  filter: grayscale(100%);
+  background-size: cover;
+}
 
 .homepage-services-container {
   display: flex;
