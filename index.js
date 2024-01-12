@@ -31,5 +31,35 @@ document.querySelector("#toggle-menu").addEventListener("mouseout", closeToggleM
  }
 
  
+const countrySelect = document.getElementById("country");
+const countryLabel = document.getElementById("countryLabel");
 
+const apiUrl = "https://restcountries.com/v2/all";
+
+// API'den ülkeleri çekme
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    const defaultOption = document.createElement("option");
+    defaultOption.disabled = true;
+    defaultOption.selected = true;
+    defaultOption.value = "";
+    defaultOption.text = "Where To?";
+    countrySelect.add(defaultOption);
+
+    
+    data.forEach(country => {
+      const option = document.createElement("option");
+      option.value = country.alpha2Code; 
+      option.text = country.name;
+      countrySelect.add(option);
+    });
+
+
+    countrySelect.addEventListener("change", function() {
+      const selectedCountry = countrySelect.options[countrySelect.selectedIndex].text;
+      countryLabel.textContent = `Seçilen Ülke: ${selectedCountry}`;
+
+    });
+  })
  
