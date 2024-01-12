@@ -457,3 +457,33 @@ input[type="range"]::-webkit-slider-thumb {
   height: 22px;
   background: #df6951;
 }
+
+.cards-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-250px);
+  padding: 25px;
+  
+}
+
+.cards-page ul {
+  display: flex;
+}
+
+.cards-page ul li {
+  padding: 13px;
+  color: #181e4b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cards-page .selected {
+  background-color: #ebebeb;
+  border-radius: 50%;
+
+}
