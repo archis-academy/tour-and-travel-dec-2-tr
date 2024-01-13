@@ -1,7 +1,7 @@
 .main-header {
     width: 100%;
     height: 100vh;
-    background: url(/images/booking-backgroun.jpg);
+    background: url(/images/location/tour-location-homepage.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,6 +10,8 @@
     display: flex;
     justify-content: space-between;
     padding: 40px 20px;
+    margin-left: 321px;
+    margin-right: 321px;
 }
 
 .header-menu-navbar ul {
@@ -22,10 +24,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    color: #fff;
+    color: white;
+    list-style: none;
 }
 
 .header-button button {
+    display: flex;
     padding: 18px 26px;
     border-radius: 14px;
     background-color: #df6951;
@@ -37,30 +41,44 @@
     grid-area: button;
 }
 
+.header-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .header-text {
     text-align: center;
     margin-top: 250px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
 }
 
 .header-text h2 {
-    color: #ffefec;
     font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFEFEC;
+
 }
 
 .header-text h1 {
-    color: #fff;
     font-family: Yesteryear;
-    font-size: 157.426px;
-    font-style: normal;
+    font-size: 157px;
     font-weight: 400;
-    line-height: 223.678px;
-    /* 142.085% */
+    line-height: 224px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .booking-container {
@@ -135,13 +153,15 @@
     margin: 5px;
 }
 
-.booking-cards {
+.left-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 10px;
     justify-content: center;
+    width: 1500px;
+    padding: 25px;
 }
 
 .card-1 {
@@ -157,11 +177,6 @@
 .booking-area {
     display: flex;
     gap: 15px;
-}
-
-.booking-card {
-    width: 350px;
-    padding: 25px;
 }
 
 .booking-card-img {
@@ -478,4 +493,129 @@
     line-height: 26px;
     letter-spacing: -0.32px;
     opacity: 0.8;
+}
+
+/*benimkiler */
+
+.switzerland-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.switzerland-column1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 250px;
+}
+
+.stars-switzerland {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.switzerland-area-head {
+    font-family: "Volkhov", monospace;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+}
+
+.switzerland-area-second-head {
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DF6951;
+}
+
+.switzerland-area-second-head-continuation {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.switzerland-area-review-number {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+}
+
+.switzerland-text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.orange-texts {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #DF6951;
+}
+
+.explanations-of-infos {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.from-our-gallery h1 {
+    font-family: Volkhov;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+}
+
+.from-our-gallery p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.square-photos-of-gallery {
+    width: 236px;
+    height: 240px;
+    top: 2126px;
+    left: 818px;
+}
+
+.right-travel-photo {
+    width: 670px;
+    height: 420px;
+    top: 1902px;
+    left: 934px;
+
 }
