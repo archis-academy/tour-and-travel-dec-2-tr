@@ -322,6 +322,16 @@
   margin-top: 120px;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.footer {
+  position: relative;
+}
+.footer-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .footer h5 {
@@ -464,7 +474,6 @@ input[type="range"]::-webkit-slider-thumb {
   justify-content: center;
   transform: translateX(-250px);
   padding: 25px;
-  
 }
 
 .cards-page ul {
@@ -482,8 +491,12 @@ input[type="range"]::-webkit-slider-thumb {
   text-transform: capitalize;
 }
 
-.cards-page .selected {
+/* .cards-page .selected {
   background-color: #ebebeb;
   border-radius: 50%;
-
-}
+  width: 30px;
+  height: 30px;
+  display: inline;
+  padding: 0;
+  text-align: center;
+} */
