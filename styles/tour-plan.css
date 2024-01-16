@@ -122,6 +122,7 @@
   display: flex;
   gap: 15px;
   padding-bottom: 100px;
+  background: #fff;
 }
 .booking-area-maps {
   display: flex;
@@ -236,12 +237,21 @@
 
 .booking-search-area {
   margin-right: 50px;
+  position: relative;
+  padding: 0;
 }
 .search-items {
   background: #ededed;
   padding: 10px 10px;
 }
 
+.search-bar input {
+  padding: 7px;
+}
+
+.search-bar i {
+  opacity: 0.1;
+}
 .search-info h3 {
   color: #181e4b;
   text-align: center;
