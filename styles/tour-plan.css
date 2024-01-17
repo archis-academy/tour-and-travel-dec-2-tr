@@ -123,6 +123,7 @@
   gap: 15px;
   padding-bottom: 100px;
   background: #fff;
+  position: relative;
 }
 .booking-area-maps {
   display: flex;
@@ -237,7 +238,6 @@
 
 .booking-search-area {
   margin-right: 50px;
-  position: relative;
   padding: 0;
 }
 .search-items {
@@ -334,20 +334,17 @@
 }
 .booking-container-img {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   bottom: 150px;
   right: 0;
 }
-
+.booking-container-img img {
+  height: 350px;
+}
 .booking-container-img2 {
   transform: translateY(7px);
 }
-.booking-img-1 {
-  position: absolute;
-  z-index: -1;
-  right: -250px;
-  top: 290px;
-}
+
 .footer-container {
   display: flex;
   width: 60%;
