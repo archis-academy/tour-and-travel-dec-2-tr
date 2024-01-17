@@ -26,8 +26,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 60px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 .no-blur {
   backdrop-filter: none;
