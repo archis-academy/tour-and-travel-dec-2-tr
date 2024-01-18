@@ -247,7 +247,7 @@
 .booking-container-2 {
   display: flex;
   gap: 20px;
-  padding: 15px;
+  padding-left: 15px;
   padding-bottom: 120px;
 }
 .search-bar input {
@@ -271,7 +271,6 @@
 }
 .galery-page-list ul li i {
   font-size: 20px;
-  
 }
 .search-bar i {
   opacity: 0.1;
@@ -538,4 +537,8 @@ input[type="range"]::-webkit-slider-thumb {
   background-size: cover;
   width: ;
   :300px ;
+}
+
+.booking-container-2 {
+  display: none;
 }

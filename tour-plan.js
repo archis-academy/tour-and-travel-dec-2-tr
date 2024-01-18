@@ -1,33 +1,28 @@
-document.querySelector("#package-plan-button").addEventListener("click", packageMenuOpen);
-document.querySelector("#package-menu-close").addEventListener("click", packageMenuClose);
-function packageMenuOpen(){
-   let menu = document.querySelector("#package-menu");
-   menu.style.display = "block";
-   let headerMenu = document.querySelector("#header");
-   headerMenu.classList.add("homepage-before")
+document.getElementById("gallery-menu").addEventListener("click", galeryOpen);
+document
+  .getElementById("tourplan-menu")
+  .addEventListener("click", tourPlanOpen);
+const gallery = document.getElementById("gallery");
+const tourPlan = document.getElementById("tour-plan");
+const galleryMenu = document.getElementById("gallery-menu-area");
+const tourPlanMenu = document.getElementById("tourplan-menu-area");
 
-  
+function galeryOpen() {
+  event.preventDefault();
+  tourPlanMenu.style.background = "#f8f8f8";
+  gallery.style.display = "block";
+  galleryMenu.style.background = "#fff";
+  tourPlan.style.display = "none";
+  information.style.display = "none";
+  location.style.display = "none";
 }
-function packageMenuClose(){
-    let menu = document.querySelector("#package-menu");
-    menu.style.display = "none";
-    let headerMenu = document.querySelector("#header");
-    headerMenu.classList.remove("homepage-before")
- 
-    
- }
+function tourPlanOpen() {
+  event.preventDefault();
 
- document.querySelector("#toggle-menu-link").addEventListener("mouseover", openToggleMenu);
- document.querySelector("#toggle-menu-link").addEventListener("mouseout", closeToggleMenu);
-document.querySelector("#toggle-menu").addEventListener("mouseover", openToggleMenu);
-document.querySelector("#toggle-menu").addEventListener("mouseout", closeToggleMenu)
- function openToggleMenu(){
-    let toggleMenuList = document.querySelector("#toggle-menu");
-    toggleMenuList.style.display = "block"
- }
- function closeToggleMenu(){
-    let toggleMenuList = document.querySelector("#toggle-menu");
-    toggleMenuList.style.display = "none"
- }
-
-
+  gallery.style.display = "none";
+  tourPlanMenu.style.background = "#fff";
+  galleryMenu.style.background = "#f8f8f8";
+  tourPlan.style.display = "block";
+  information.style.display = "none";
+  location.style.display = "none";
+}
