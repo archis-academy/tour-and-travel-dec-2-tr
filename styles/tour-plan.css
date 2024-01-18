@@ -244,11 +244,35 @@
   background: #ededed;
   padding: 10px 10px;
 }
-
+.booking-container-2 {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  padding-bottom: 120px;
+}
 .search-bar input {
   padding: 7px;
 }
 
+.galery-page-list ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.galery-page-list ul li {
+  padding: 0 20px;
+  color: #181e4b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.galery-page-list ul li i {
+  font-size: 20px;
+  
+}
 .search-bar i {
   opacity: 0.1;
 }
@@ -488,4 +512,30 @@ input[type="range"]::-webkit-slider-thumb {
   width: 22px;
   height: 22px;
   background: #df6951;
+}
+.booking-area-galery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-galery-row {
+  display: flex;
+  column-gap: 20px;
+}
+.booking-galery-col {
+  display: flex;
+  gap: 20px;
+}
+
+.galery-col {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.trip-galery-img7 {
+  background-size: cover;
+  width: ;
+  :300px ;
 }
