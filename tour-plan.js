@@ -18,7 +18,6 @@ function galeryOpen() {
 }
 function tourPlanOpen() {
   event.preventDefault();
-
   gallery.style.display = "none";
   tourPlanMenu.style.background = "#fff";
   galleryMenu.style.background = "#f8f8f8";

@@ -117,14 +117,7 @@
 .booking-card img {
   transition: all 0.6s ease;
 }
-/* .card-1 {
-  border-radius: 21px;
-  background: #fff;
-  box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
-}
-.card-1 .booking-card-img img {
-  border-radius: 15px 15px 0 0;
-} */
+
 .booking-area {
   display: flex;
   gap: 15px;
