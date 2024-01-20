@@ -177,6 +177,7 @@
 .booking-area {
     display: flex;
     gap: 15px;
+    transform: translate(-88px, 0px);
 }
 
 .booking-card-img {
@@ -325,6 +326,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: center;
+}
+
+.price-filter button {
+    width: 150px;
+
 }
 
 .price-filter h4 {
@@ -370,6 +377,10 @@
 
 .booking-container-img {
     transform: translate(-250px, 190px);
+}
+
+.footer {
+    transform: translate(0px, -500px);
 }
 
 .footer-container {
@@ -500,6 +511,15 @@
 .switzerland-area {
     display: flex;
     flex-direction: row;
+    text-align: left;
+    transform: translate(-200px, 0px);
+}
+
+.stars-of-switzerland {
+    width: 16px;
+    height: 16px;
+    padding-right: 0px;
+    transform: translate(0px, -10px);
 }
 
 .switzerland-column1 {
@@ -543,6 +563,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: #7D7D7D;
+    transform: translate(100px, -60px);
 }
 
 .switzerland-area-review-number {
@@ -553,29 +574,10 @@
     letter-spacing: 0em;
     text-align: center;
     color: #5E6282;
+    transform: translate(10px, -30px);
 }
 
 .switzerland-text {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-}
-
-.orange-texts {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.1em;
-    text-align: left;
-    color: #DF6951;
-}
-
-.explanations-of-infos {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -618,4 +620,92 @@
     top: 1902px;
     left: 934px;
 
+}
+
+.travel-infos {
+    display: flex;
+    flex-direction: row;
+
+    width: 750px;
+}
+
+.orange-texts {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #DF6951;
+}
+
+.orange-texts p {
+    padding-bottom: 20px;
+}
+
+.explanations-of-infos {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-left: 50px;
+}
+
+.explanations-of-infos p {
+    padding-bottom: 30px;
+}
+
+.row-of-hotelrec {
+    display: flex;
+    flex-direction: row;
+    transform: translate(0px, -25px);
+}
+
+.row-of-hotelrec p {
+    width: 300px;
+}
+
+.gallery-photos {
+    width: 750px;
+    height: 500px;
+}
+
+.square-photos-of-gallery {
+    padding: 5px;
+}
+
+.right-travel-photo-section {
+    transform: translate(900px, -800px);
+    z-index: -1;
+}
+
+.right-travel-photo {
+    z-index: -1;
+}
+
+.footer-logo-footer-item h1 {
+    font-family: Volkhov;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer-logo-socials ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: start;
+}
+
+.logo-of-footers {
+    padding-right: 20px;
+}
+
+.footer-infos-company {
+    list-style: none;
 }
