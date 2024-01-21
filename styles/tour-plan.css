@@ -21,14 +21,17 @@
   letter-spacing: 1.8px;
   text-transform: uppercase;
 }
+
 .header-text h1 {
   color: #fff;
   font-family: Yesteryear;
   font-size: 157.426px;
   font-style: normal;
   font-weight: 400;
-  line-height: 223.678px; /* 142.085% */
+  line-height: 223.678px;
+  /* 142.085% */
 }
+
 .booking-container {
   width: 1350px;
   margin: 0 auto;
@@ -36,6 +39,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: relative;
 }
+
 .filter-item {
   flex: 1;
   display: flex;
@@ -51,22 +55,27 @@
   text-transform: capitalize;
   padding: 40px 20px;
 }
+
 .filter-item h4 {
   padding-left: 10px;
 }
+
 .filter-item i {
   font-size: 26px;
 }
+
 .booking-filter-items {
   display: flex;
   margin-bottom: 20px;
   background: #f8f8f8;
 }
+
 .trip-bookings-filter {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .trip-bookings-filter ul {
   display: flex;
   background: #f8f8f8;
@@ -96,6 +105,7 @@
   font-size: 20px;
   margin: 5px;
 }
+
 .booking-cards {
   display: flex;
   flex-direction: row;
@@ -111,9 +121,11 @@
   background: #fff;
   box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
 }
+
 .booking-card img:hover {
   border-radius: 20px 20px 0 0;
 }
+
 .booking-card img {
   transition: all 0.6s ease;
 }
@@ -125,6 +137,7 @@
   background: #fff;
   position: relative;
 }
+
 .booking-area-maps {
   display: flex;
   flex-direction: column;
@@ -133,6 +146,7 @@
   margin: 0 20px 0 40px;
   width: 700px;
 }
+
 .maps-title {
   color: #181e4b;
   font-family: Volkhov;
@@ -142,6 +156,7 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
 .maps-content {
   color: #181e4b;
   font-family: Poppins;
@@ -151,6 +166,7 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
 .booking-card {
   width: 350px;
   padding: 15px;
@@ -167,6 +183,7 @@
   width: 100%;
   height: 257px;
 }
+
 .img-info-date {
   display: flex;
   background: #df6951;
@@ -174,18 +191,22 @@
   font-size: 12px;
   font-weight: 400;
 }
+
 .img-info-date span {
   margin-right: 8px;
 }
+
 .img-info-date div {
   display: flex;
   margin: 5px 18px;
   align-items: center;
   justify-content: center;
 }
+
 .booking-img-info {
   padding-left: 10px;
 }
+
 .booking-img-info h3 {
   color: #181e4b;
   font-family: Volkhov;
@@ -211,10 +232,12 @@
 .img-info-price span {
   margin: 26px 16px 0px 0px;
 }
+
 .img-info-star i {
   margin-right: 5px;
   color: #df6951;
 }
+
 .img-info-star {
   color: #262626;
   text-align: center;
@@ -225,6 +248,7 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
 .img-info-price-1 {
   color: #262626;
   text-align: center;
@@ -240,16 +264,19 @@
   margin-right: 50px;
   padding: 0;
 }
+
 .search-items {
   background: #ededed;
   padding: 10px 10px;
 }
+
 .booking-container-2 {
   display: flex;
   gap: 20px;
   padding-left: 15px;
   padding-bottom: 120px;
 }
+
 .search-bar input {
   padding: 7px;
 }
@@ -259,6 +286,7 @@
   justify-content: center;
   margin-top: 30px;
 }
+
 .galery-page-list ul li {
   padding: 0 20px;
   color: #181e4b;
@@ -269,12 +297,15 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
 .galery-page-list ul li i {
   font-size: 20px;
 }
+
 .search-bar i {
   opacity: 0.1;
 }
+
 .search-info h3 {
   color: #181e4b;
   text-align: center;
@@ -304,10 +335,12 @@
   opacity: 0.6;
   font-size: 16px;
 }
+
 .search-bar i {
   opacity: 0.6;
   padding-left: 10px;
 }
+
 .search-tour,
 .search-date,
 .search-where {
@@ -316,6 +349,7 @@
   text-align: left;
   padding-left: 10px;
 }
+
 .price-filter {
   margin: 14px;
   display: flex;
@@ -347,6 +381,7 @@
   font-weight: 700;
   width: 150px;
 }
+
 .price-filter p {
   color: rgba(0, 0, 0, 0.56);
   font-family: Poppins;
@@ -355,15 +390,18 @@
   font-weight: 400;
   line-height: 26px;
 }
+
 .booking-container-img {
   position: absolute;
   z-index: 0;
   bottom: 150px;
   right: 0;
 }
+
 .booking-container-img img {
   height: 350px;
 }
+
 .booking-container-img2 {
   transform: translateY(7px);
 }
@@ -428,13 +466,15 @@
   font-weight: 500;
   line-height: 24px;
 }
+
 .footer-destinations h4 {
   color: #181433;
   font-family: Manrope;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 114.286% */
+  line-height: 24px;
+  /* 114.286% */
 }
 
 .footer-destinations ul li {
@@ -446,6 +486,7 @@
   font-weight: 500;
   line-height: 24px;
 }
+
 .footer-join h4 {
   color: #181433;
   font-family: Manrope;
@@ -494,6 +535,7 @@
   width: 100%;
   background: white;
 }
+
 .input-range input {
   position: absolute;
   top: 0;
@@ -512,6 +554,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 22px;
   background: #df6951;
 }
+
 .booking-area-galery {
   display: flex;
   flex-direction: column;
@@ -522,6 +565,7 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   column-gap: 20px;
 }
+
 .booking-galery-col {
   display: flex;
   gap: 20px;
@@ -535,8 +579,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 .trip-galery-img7 {
   background-size: cover;
-  width: ;
-  :300px ;
+  width: 300px;
+
 }
 
 .booking-container-2 {
@@ -547,14 +591,16 @@ input[type="range"]::-webkit-slider-thumb {
   display: none;
 }
 
-.booking-container-3{
+.booking-container-3 {
   width: 125%;
   padding: 20px;
-  
+
 }
+
 .head-row-1 {
   display: flex;
 }
+
 .head-row-1 h3 {
   color: #181e4b;
   font-family: Volkhov;
@@ -564,6 +610,7 @@ input[type="range"]::-webkit-slider-thumb {
   line-height: normal;
   text-transform: capitalize;
 }
+
 .head-row-1 h4 span {
   color: #df6951;
   text-align: center;
@@ -582,9 +629,11 @@ input[type="range"]::-webkit-slider-thumb {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   padding-left: 15px;
 }
+
 .head-row-1 h4 {
   padding-left: 20px;
   color: #7d7d7d;
@@ -596,9 +645,11 @@ input[type="range"]::-webkit-slider-thumb {
   line-height: normal;
   text-transform: capitalize;
 }
+
 .head-row-2 i {
   color: #ffba0a;
 }
+
 .details-row {
   display: flex;
   text-align: center;
@@ -618,6 +669,7 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: center;
   padding-bottom: 40px;
 }
+
 .details-row h5 {
   color: #df6951;
   font-family: Poppins;
@@ -628,6 +680,7 @@ input[type="range"]::-webkit-slider-thumb {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+
 .details-row p {
   padding-left: 140px;
   color: black;
@@ -638,17 +691,17 @@ input[type="range"]::-webkit-slider-thumb {
   line-height: 26px;
 }
 
-.info-galery-head {
-}
-.info-galery-text {
-}
+.info-galery-head {}
+
+.info-galery-text {}
+
 .info-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px
-  ;
+  gap: 20px;
 }
-.info-gallery img{
+
+.info-gallery img {
   width: 235px;
   height: 240px;
   background-size: cover;
