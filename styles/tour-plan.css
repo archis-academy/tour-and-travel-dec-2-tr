@@ -141,10 +141,10 @@
 .booking-area-maps {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   gap: 29px;
   margin: 0 20px 0 40px;
-  width: 700px;
+
 }
 
 .maps-title {
@@ -261,8 +261,14 @@
 }
 
 .booking-search-area {
-  margin-right: 50px;
+  display: flex;
+  margin-right: 20px;
+  /* Örnek olarak 20px sağdan boşluk bırakıldı */
   padding: 0;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+  /* Kutu modelini içeriği dahil edecek şekilde ayarlar */
 }
 
 .search-items {
@@ -403,7 +409,7 @@
 }
 
 .booking-container-img2 {
-  transform: translateY(7px);
+  transform: translateY(0px);
 }
 
 .footer-container {
@@ -587,10 +593,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: none;
 }
 
-.booking-area-maps {
-  display: none;
-}
-
 .booking-container-3 {
   width: 125%;
   padding: 20px;
@@ -654,19 +656,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   text-align: center;
   align-items: center;
-}
-
-.information-text p {
-  color: #000;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.details-row {
-  text-align: center;
   padding-bottom: 40px;
 }
 
@@ -682,13 +671,25 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .details-row p {
-  padding-left: 140px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
   color: black;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+.information-text p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .info-galery-head {}
@@ -828,6 +829,11 @@ input[type="range"]::-webkit-slider-thumb {
 .book-container-align {
   display: flex;
   flex-direction: row;
+}
+
+#tourplan {
+  padding-left: 80px;
+  width: 1500px;
 }
 
 .segment li {
