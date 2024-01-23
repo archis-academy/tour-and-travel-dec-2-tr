@@ -1,24 +1,4 @@
-body {
-    display: flex;
-    justify-content: center;
-}
-
-
-.mainall {}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-
-}
-
-.main {
+.about-page-top {
     display: flex;
     background-image: url(/images/about/about-header-img.png);
     height: 100vh;
