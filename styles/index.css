@@ -18,7 +18,7 @@
 
 }
 
-.read {
+.read-header-text {
     font-family: "Poppins", monospace;
     font-size: 18px;
     font-weight: 700;
@@ -28,7 +28,7 @@
     color: #FFEFEC;
 }
 
-.about_us {
+.about_us-header-text {
     font-family: Yesteryear;
     font-size: 157px;
     font-weight: 400;
@@ -103,7 +103,7 @@
     background-size: cover;
 }
 
-.main_text_area {
+.promotion-main_text_area {
     display: flex;
     flex-direction: column;
 }
@@ -119,7 +119,7 @@
     color: #DF6951
 }
 
-.weprovide {
+.weprovide-header {
     padding-bottom: 20px;
     font-family: Volkhov;
     font-size: 50px;
@@ -130,7 +130,7 @@
     color: #181E4B
 }
 
-.promo_text {
+.weprovide-promo_text {
     padding-bottom: 20px;
     font-family: Poppins;
     font-size: 16px;
@@ -285,7 +285,7 @@
     padding-left: 20px;
 }
 
-.one_text {
+.tour_plans-one_text {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
@@ -296,7 +296,7 @@
 
 }
 
-.two_text {
+.tour_plans-two_text {
     font-family: Volkhov;
     font-size: 50px;
     font-weight: 700;
@@ -307,7 +307,7 @@
 
 }
 
-.three_text {
+.tour_plans-three_text {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -332,11 +332,11 @@
     flex-direction: column; */
 }
 
-.footermain {
+.about-us-footermain {
     transform: translate(0px, -300px);
 }
 
-.footer {
+.about-us-footer {
 
     background-image: url(/images/about/h1-background-img-1\ 1.png);
     width: 1920px;
@@ -346,11 +346,11 @@
     justify-content: center;
 }
 
-.footertexts {
+.about-us-footertexts {
     padding-top: 125px;
 }
 
-.footer-text {
+.about-us-footer-text {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
@@ -360,7 +360,7 @@
     color: #DF6951;
 }
 
-.footer-text2 {
+.about-us-footer-text2 {
     font-family: Volkhov;
     font-size: 50px;
     font-weight: 700;
@@ -370,7 +370,7 @@
     color: #181E4B;
 }
 
-.footerbox {
+.about-us-footerbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,7 +378,7 @@
 
 }
 
-.footerboxphoto {
+.about-us-footerboxphoto {
     background-image: url(/images/testimonial-section-box-pp-img.png);
     width: 170px;
     height: 170px;
@@ -387,7 +387,7 @@
     z-index: +1;
 }
 
-.footerboxwhitebox {
+.about-us-footerboxwhitebox {
     transform: translate(680px, -100px);
     background-color: white;
     width: 538px;
@@ -396,7 +396,7 @@
     border-radius: 25px;
 }
 
-.footerboxtext {
+.about-us-footerboxtext {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 400;
@@ -406,12 +406,12 @@
 
 }
 
-.footerboxtextname {
+.about-us-footerboxtextname {
     padding-top: 20px;
     font-weight: 900;
 }
 
-.footerboxquotepng {
+.about-us-footerboxquotepng {
     background-image: url(/images/testimonial-box-quotes.png);
     width: 100px;
     height: 100px;
@@ -420,7 +420,7 @@
     z-index: +1;
 }
 
-.footerarrows {
+.about-us-footerarrows {
     display: flex;
     justify-content: space-between;
     transform: translate(-48px, -250px);
@@ -429,21 +429,21 @@
 }
 
 
-.footerleftarrow {
+.about-us-footerleftarrow {
     background-image: url(/images/arrow-leeft-icon.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
 }
 
-.footerrightarrow {
+.about-us-footerrightarrow {
     background-image: url(/images/arrow-right-icon.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
 }
 
-.footerlastphoto {
+.about-us-footerlastphoto {
     background-image: url(/images/testimonial-section-hat-img.png);
     width: 300px;
     height: 289px;
@@ -454,7 +454,7 @@
 
 /* devamı */
 
-.footer-end {
+.about-us-footer-end {
     text-align: left;
     background-image: url(/images/Footer\ img.png);
     background-repeat: no-repeat;
@@ -464,14 +464,14 @@
 
 }
 
-.footer-end-column {
+.about-us-footer-end-column {
     display: flex;
     flex-direction: row;
     gap: 250px;
     justify-content: center;
 }
 
-.travel-title {
+.about-us-travel-title {
     color: #181E4B;
     text-align: center;
     font-family: Volkhov, monospace;
@@ -483,7 +483,7 @@
 
 }
 
-.travelarrow {
+.about-us-travelarrow {
     background-image: url(/images/logo-new.png);
     width: 100px;
     height: 30px;
@@ -493,7 +493,7 @@
     color: #181E4B;
 }
 
-.travel-text {
+.about-us-travel-text {
 
     color: #757095;
     font-family: Manrope;
@@ -506,7 +506,7 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.sub-texts {
+.about-us-sub-texts {
     padding-bottom: 10px;
     color: #181433;
     font-family: Manrope;
@@ -518,7 +518,7 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.sub-titles {
+.about-us-sub-titles {
     padding-bottom: 20px;
     color: #181433;
     font-family: Manrope;
@@ -530,18 +530,18 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.newsletter-div {
+.about-us-newsletter-div {
     text-align: start;
     font-family: 'Manrope', sans-serif;
 }
 
-.newsletter-button {
+.about-us-newsletter-button {
     display: flex;
     flex-direction: row;
     font-family: 'Manrope', sans-serif;
 }
 
-.square1 {
+.about-us-square1 {
     border-style: none;
     width: 389px;
     height: 52px;
@@ -553,7 +553,7 @@
     margin-bottom: 20px;
 }
 
-.square2 {
+.about-us-square2 {
     width: 149px;
     height: 52px;
     flex-shrink: 0;
@@ -567,7 +567,7 @@
 
 }
 
-.newsletter-text {
+.about-us-newsletter-text {
     opacity: 0.5;
     color: #181433;
     font-family: Manrope;
@@ -579,7 +579,7 @@
     letter-spacing: -0.32px;
 }
 
-.line {
+.about-us-line {
     width: 80%;
     height: 2px;
     background-color: #E5E5EA;
@@ -587,7 +587,7 @@
     margin-bottom: 50px;
 }
 
-.footer-end-bottom {
+.about-us-footer-end-bottom {
     color: #181433;
     text-align: center;
     font-family: Manrope;
@@ -600,35 +600,35 @@
     margin-bottom: 30px;
 }
 
-.travel-logos {
+.about-us-travel-logos {
     display: flex;
     flex-direction: row;
     gap: 20px;
     margin-top: 30px;
 }
 
-.logo1 {
+.about-us-logo1 {
     background-image: url(/images/about/052-linkedin.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
 }
 
-.logo2 {
+.about-us-logo2 {
     background-image: url(/images/about/025-messenger.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
 }
 
-.logo3 {
+.about-us-logo3 {
     background-image: url(/images/about/096-twitter.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
 }
 
-.logo4 {
+.about-us-logo4 {
     background-image: url(/images/about/097-twoo.png);
     background-repeat: no-repeat;
     width: 25px;
@@ -639,20 +639,20 @@
     font-family: Poppins, monospace;
 }
 
-.foto-satirlar {
+.about-page-foto-satirlar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.foto-satir {
+.about-page-foto-satir {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
     /* İstediğiniz boşluğu ayarlayın */
 }
 
-.foto-kutu {
+.about-page-foto-kutu {
     width: 363px;
     height: 363px;
     flex-shrink: 0;
@@ -661,7 +661,7 @@
     /* İstediğiniz boşluğu ayarlayın */
 }
 
-.foto-kutu img {
+.about-page-foto-kutu img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -669,16 +669,14 @@
     /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
 }
 
-.img-name {
+.about-page-img-name {
     display: block;
     margin-top: 5px;
     /* İstediğiniz boşluğu ayarlayın */
     font-weight: bold;
 }
 
-
-
-.foto-kutu-uzun {
+.about-page-foto-kutu-uzun {
     width: 363px;
     height: 745px;
     flex-shrink: 0;
@@ -687,7 +685,7 @@
     /* İstediğiniz boşluğu ayarlayın */
 }
 
-.foto-kutu-uzun img {
+.about-page-foto-kutu-uzun img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -695,14 +693,14 @@
     /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
 }
 
-.img-name {
+.about-page-img-name {
     display: block;
     margin-top: 5px;
     /* İstediğiniz boşluğu ayarlayın */
     font-weight: bold;
 }
 
-.foto-kutu-span {
+.about-page-foto-kutu-span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -713,7 +711,7 @@
     font-size: 20px;
 }
 
-.foto-satir2 {
+.about-page-foto-satir2 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -722,7 +720,7 @@
     z-index: -1;
 }
 
-.foto-kutu2 {
+.about-page-foto-kutu2 {
     width: 363px;
     height: 363px;
     flex-shrink: 0;
