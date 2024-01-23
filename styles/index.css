@@ -1,11 +1,11 @@
-.main-explore {
+.main-explore-area {
     display: flex;
     justify-content: center;
     align-items: center;
     /* Ekran yüksekliğinin tamamını kaplamak için */
 }
 
-.left-png {
+.left-explore-png {
     filter: brightness(50%);
     /* Ayarlanabilir değerler */
 }
