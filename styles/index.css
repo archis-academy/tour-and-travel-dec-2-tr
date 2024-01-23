@@ -47,11 +47,14 @@
 
 .trendy-stars {
     display: flex;
-    justify-content: end;
-    /* Yıldızları sağa hizala */
     align-items: center;
     /* Dikeyde ortalamak için */
-    padding-left: 150px;
+    padding-left: 100px;
+}
+
+#trendy-profile-icon {
+    width: 25px;
+    height: 25px;
 }
 
 .trendy-country-calendar {
