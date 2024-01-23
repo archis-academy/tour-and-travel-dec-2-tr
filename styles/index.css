@@ -1,11 +1,11 @@
-.country {
+.trendy-country {
     display: flex;
     flex-direction: column;
     width: 500px;
     padding-left: 100px;
 }
 
-.trendy {
+.trendy-header {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -15,7 +15,7 @@
     color: #DF6951;
 }
 
-.header {
+.trendy-header2 {
     font-family: 'Volkhov', serif;
     font-size: 50px;
     font-weight: 700;
@@ -26,26 +26,26 @@
     padding-bottom: 25px;
 }
 
-.cards {
+.trendy-cards {
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
-.country-logo {
+.trendy-country-logo {
     transform: translate(0px, -65px);
 }
 
-.country-info {
+.trendy-country-info {
     display: flex;
     flex-direction: row;
 }
 
-.all-country-infos {
+.trendy-all-country-infos {
     transform: translate(0px, -100px);
 }
 
-.stars {
+.trendy-stars {
     display: flex;
     justify-content: end;
     /* Yıldızları sağa hizala */
@@ -54,34 +54,34 @@
     padding-left: 150px;
 }
 
-.country-calendar {
+.trendy-country-calendar {
     display: flex;
     flex-direction: row;
     margin-right: 50px;
     padding-bottom: 10px;
 }
 
-.calendar-text {
+.trendy-calendar-text {
     padding-left: 10px;
 }
 
-.icons {
+.trendy-icons {
     width: 20px;
     height: 20px;
 }
 
-.country-people-going {
+.trendy-country-people-going {
     display: flex;
     flex-direction: row;
     width: 200px;
 }
 
-.countryname-and-stars {
+.trendy-countryname-and-stars {
     display: flex;
     flex-direction: row;
 }
 
-.countryname {
+.trendy-countryname {
     font-family: 'Poppins', sans-serif;
     font-size: 29px;
     font-weight: 700;
@@ -91,14 +91,14 @@
     color: #2F2F2F;
 }
 
-.location-and-text {
+.trendy-location-and-text {
     display: flex;
     flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.location-text {
+.trendy-location-text {
     display: flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -112,12 +112,12 @@
 
 }
 
-.dolars {
+.trendy-dolars {
     display: flex;
     flex-direction: row;
 }
 
-.dolar-now {
+.trendy-dolar-now {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 29px;
@@ -130,7 +130,7 @@
 
 }
 
-.dolar-before {
+.trendy-dolar-before {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -144,7 +144,7 @@
     align-items: center;
 }
 
-.country-explanation {
+.trendy-country-explanation {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -154,7 +154,7 @@
     color: #000000;
 }
 
-.countrybutton {
+.trendy-countrybutton {
     background: #DF6951;
     width: 135px;
     height: 43px;
@@ -163,11 +163,11 @@
     border-radius: 10px;
 }
 
-.button-country-area {
+.trendy-button-country-area {
     padding-top: 25px;
 }
 
-.calendar-text {
+.trendy-calendar-text {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 400;
