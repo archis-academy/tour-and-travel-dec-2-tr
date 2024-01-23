@@ -1,14 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Poppins", "Volkhov";
-}
-
-.main-div {
+.honeymoon-special-main-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,21 +6,19 @@ body {
     padding: 10px 20px;
 }
 
-.main-div-left-side {
+.honeymoon-special-main-div-left-side {
     display: flex;
     padding: 50px;
 }
 
-/*.main-div-right-side {} */
-
-.right-side-title {
+.honeymoon-special-right-side-title {
     font-family: "Poppins";
     color: rgb(248, 136, 7);
     font-weight: bold;
 
 }
 
-.right-side-title-big {
+.honeymoon-special-right-side-title-big {
     font-size: 50px;
     color: #181E4B;
     font-family: "Volkhov";
@@ -38,13 +26,14 @@ body {
     margin-bottom: 30px;
 }
 
-.right-side-paragraph {
+.honeymoon-special-right-side-paragraph {
     margin-bottom: 20px;
     font-weight: bold;
     line-height: 150%;
+    font-family: "Poppins";
 }
 
-.right-side-button {
+.honeymoon-special-right-side-button {
     font-weight: bolder;
     /* bu çalışmıyor */
     background-color: #DF6951;
