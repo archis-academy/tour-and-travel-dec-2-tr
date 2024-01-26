@@ -15,6 +15,7 @@
   margin: 150px auto;
   padding: 0 20px;
 }
+
 .header-content-title {
   color: #fff;
   font-size: 1.6rem;
@@ -23,6 +24,7 @@
   line-height: 4rem;
   letter-spacing: 0.125rem;
 }
+
 .content-search-box {
   background: rgba(243, 243, 243, 0.6);
   backdrop-filter: blur(17.760618209838867px);
@@ -33,6 +35,7 @@
   margin-top: 20px;
   width: 80%;
 }
+
 .search-box-item button {
   padding: 14px 50px;
   border-radius: 14px;
@@ -44,6 +47,7 @@
   font-weight: 500;
   cursor: pointer;
 }
+
 .search-box-item {
   margin: 20px 0;
   color: #fff;
@@ -53,13 +57,16 @@
   line-height: normal;
   text-align: center;
 }
+
 .search-box-item input[type="search"] {
   width: 150px;
 }
+
 .search-box-item h4 {
   font-weight: 300;
   cursor: pointer;
 }
+
 .search-box-item select {
   background: none;
   outline: none;
@@ -71,6 +78,7 @@
   line-height: normal;
   cursor: pointer;
 }
+
 #search-area {
   background: none;
   outline: none;
@@ -82,32 +90,39 @@
   line-height: normal;
   cursor: pointer;
 }
+
 input::placeholder {
   color: #fff;
 }
+
 .search-box-item select option {
   color: black;
 }
+
 /* AVATAR MENU */
 .content-people {
   margin-top: 20px;
   display: flex;
   align-items: center;
 }
+
 .people-avatar {
   display: flex;
   position: relative;
 }
+
 .plus-img img {
   position: absolute;
   top: 13px;
   right: 13px;
   width: 10px;
 }
+
 .people-avatar img {
   margin-right: -15px;
   margin-top: 10px;
 }
+
 .people-text {
   margin-left: 30px;
   color: #fff;
@@ -116,12 +131,14 @@ input::placeholder {
   font-weight: 500;
   line-height: 2.5rem;
 }
+
 /* SCROLL */
 .header-scroll img {
   position: absolute;
   bottom: -210px;
   left: 30px;
 }
+
 .homepage-partners {
   display: flex;
   justify-content: space-around;
@@ -192,6 +209,7 @@ input::placeholder {
   background-color: white;
   padding: 45px 35px;
 }
+
 .services-col-img {
   position: relative;
 }
@@ -206,10 +224,12 @@ input::placeholder {
   right: -15px;
   z-index: -1;
 }
+
 .services-col-airplane-img {
   position: relative;
   z-index: 1;
 }
+
 .services-img-box-2 {
   width: 100px;
   height: 100px;
@@ -220,6 +240,7 @@ input::placeholder {
   left: -30px;
   z-index: -2;
 }
+
 .services-img-box-3 {
   width: 50px;
   height: 50px;
@@ -256,6 +277,7 @@ input::placeholder {
   font-weight: 500;
   line-height: 26px;
 }
+
 .resort-container {
   display: flex;
   align-items: center;
@@ -284,6 +306,7 @@ input::placeholder {
   font-weight: 700;
   line-height: normal;
 }
+
 .resort-col-title2 {
   color: #181e4b;
   font-family: Volkhov;
@@ -294,21 +317,25 @@ input::placeholder {
   text-transform: capitalize;
   padding: 15px 0 30px 0;
 }
+
 .resort-row-info p {
   color: #5e6282;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 124.5%; /* 19.92px */
+  line-height: 124.5%;
+  /* 19.92px */
 }
+
 .resort-row-info h5 {
   color: #5e6282;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 124.5%; /* 19.92px */
+  line-height: 124.5%;
+  /* 19.92px */
 }
 
 .resort-row-info img {
