@@ -1,14 +1,43 @@
 .honeymoon-special-main-div {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     gap: 50px;
     padding: 10px 20px;
 }
 
+@media(max-width: 860px) {
+    .honeymoon-special-main-div {
+        flex-wrap: wrap;
+    }
+
+    .footer-column5-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.honeymoon-special-main-div-left-side>img {
+    width: 100%;
+}
+
+.honeymoon-special-main-div-right-side>h2 {
+    flex-wrap: wrap;
+}
+
+.honeymoon-special-main-div-right-side>h1 {
+    flex-wrap: wrap;
+}
+
+.honeymoon-special-main-div-right-side>p {
+    flex-wrap: wrap;
+}
+
 .honeymoon-special-main-div-left-side {
     display: flex;
-    padding: 50px;
+    padding: 0px;
 }
 
 .honeymoon-special-right-side-title {
