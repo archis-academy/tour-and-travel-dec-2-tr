@@ -7,17 +7,7 @@
     padding: 10px 20px;
 }
 
-@media(max-width: 860px) {
-    .honeymoon-special-main-div {
-        flex-wrap: wrap;
-    }
 
-    .footer-column5-logos {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 .honeymoon-special-main-div-left-side>img {
     width: 100%;
@@ -73,4 +63,44 @@
     padding: 20px;
     padding-right: 25px;
     gap: 10.45px;
+}
+
+@media(max-width: 860px) {
+    .honeymoon-special-main-div {
+        flex-wrap: wrap;
+    }
+
+    .honeymoon-special-main-div-left-side>img {
+        width: 80%;
+    }
+
+    .footer-column5-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .honeymoon-special-main-div-right-side>h2 {
+        font-size: 30px;
+    }
+
+    .honeymoon-special-main-div-right-side>h1 {
+        font-size: 25px;
+    }
+
+    .honeymoon-special-main-div-right-side>p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 300px) {
+
+
+    .honeymoon-special-main-div-right-side>h2 {
+        font-size: 20px;
+    }
+
+    .honeymoon-special-main-div-right-side>h1 {
+        font-size: 15px;
+    }
 }
