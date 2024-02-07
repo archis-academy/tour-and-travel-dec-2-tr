@@ -1,6 +1,7 @@
 .trendy-container {
   display: flex;
   flex-direction: column;
+  transform: translate(0px, -120px);
 }
 
 .trendy-country {
@@ -866,7 +867,9 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   /* Ekran yüksekliğinin tamamını kaplamak için */
+  width: 100%;
 }
 
 .left-explore-png {
@@ -896,6 +899,7 @@ input::placeholder {
   transform: translate(-50%, -150%);
   color: white;
 }
+
 
 .explore-area-promotion {
   color: #FFEFEC;
@@ -934,21 +938,25 @@ input::placeholder {
 }
 
 
-.about-us-footermain {
-  transform: translate(0px, -300px);
-}
+.about-us-footermain {}
 
 .about-us-footer {
 
-  background-image: url(/images/about/h1-background-img-1\ 1.png);
+  background-image: url(/images/h1-background-img-1\ 1.png);
   width: 1920px;
   height: 900px;
   background-repeat: no-repeat;
   background-size: auto;
   justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-us-footertexts {
+  left: 280px;
+  top: -30px;
+  position: relative;
   padding-top: 125px;
 }
 
@@ -985,12 +993,13 @@ input::placeholder {
   width: 170px;
   height: 170px;
   background-repeat: no-repeat;
-  transform: translate(870px, 0px);
+  transform: translate(-104px, 19px);
   z-index: +1;
 }
 
 .about-us-footerboxwhitebox {
-  transform: translate(680px, -100px);
+  transform: translate(-301px, -46px);
+
   background-color: white;
   width: 538px;
   height: 277px;
@@ -1135,59 +1144,58 @@ input::placeholder {
 
 
 .about-us-logo1 {
-  background-image: url(/images/about/052-linkedin.png);
+  background-image: url(/images/096-twitter.png);
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .about-us-logo2 {
-  background-image: url(/images/about/025-messenger.png);
+  background-image: url(/images/052-linkedin.png);
   background-repeat: no-repeat;
   width: 25px;
+  cursor: pointer;
   height: 25px;
 }
 
 .about-us-logo3 {
-  background-image: url(/images/about/096-twitter.png);
+  background-image: url(/images/025-messenger.png);
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .about-us-logo4 {
-  background-image: url(/images/about/097-twoo.png);
+  background-image: url(/images/097-twoo.png);
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 
 .about-us-sub-titles {
   padding-bottom: 20px;
   color: #181433;
-  font-family: Manrope;
-  font-size: 21px;
+  font-family: "Manrope", sans-serif;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  /* 114.286% */
-  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
 }
-
 
 .about-us-sub-texts {
-  padding-bottom: 10px;
-  color: #181433;
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  /* 150% */
-  font-family: 'Manrope', sans-serif;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
+.sub-texts {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 
 .about-us-newsletter-div {
   text-align: start;
@@ -1212,6 +1220,12 @@ input::placeholder {
   opacity: 0.2;
   padding: 10px;
   margin-bottom: 20px;
+  color: #000000;
+}
+
+.about-us-square1 input[type="text"] {
+  color: #000000;
+  /* Metin rengini siyah olarak ayarlamadı */
 }
 
 
@@ -1231,7 +1245,7 @@ input::placeholder {
 
 
 .about-us-newsletter-text {
-  opacity: 0.5;
+  opacity: 0.8;
   color: #181433;
   font-family: Manrope;
   font-size: 16px;
@@ -1257,7 +1271,7 @@ input::placeholder {
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 26px;
   /* 162.5% */
   letter-spacing: -0.32px;
