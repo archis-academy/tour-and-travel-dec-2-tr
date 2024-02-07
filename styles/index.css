@@ -377,6 +377,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
 }
 
 .services-title {
@@ -646,7 +647,6 @@ input::placeholder {
 
 .honeymoon-special-right-side-paragraph {
   margin-bottom: 20px;
-  font-weight: bold;
   line-height: 150%;
   font-family: "Poppins";
 }
@@ -745,7 +745,6 @@ input::placeholder {
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 26px;
-  font-weight: bolder;
   font-family: "Poppins";
 }
 
