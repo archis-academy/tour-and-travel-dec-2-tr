@@ -1,0 +1,560 @@
+.trendy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendy-country {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.trendy-header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #DF6951;
+}
+
+.trendy-header2 {
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #181E4B;
+  padding-bottom: 25px;
+}
+
+.trendy-countryphoto>img {
+  width: 100%;
+}
+
+.trendy-cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trendy-country-logo {
+  transform: translate(0px, -65px);
+}
+
+.trendy-country-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trendy-all-country-infos {
+  transform: translate(0px, -100px);
+}
+
+.trendy-stars {
+  display: flex;
+  align-items: center;
+}
+
+#trendy-profile-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.trendy-country-calendar {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  padding-bottom: 10px;
+}
+
+.trendy-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.trendy-country-people-going {
+  display: flex;
+  flex-direction: row;
+}
+
+.trendy-countryname-and-stars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trendy-countryname {
+  font-family: 'Poppins', sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2F2F2F;
+}
+
+.trendy-location-and-text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trendy-location-text {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7D7D7D;
+  padding-left: 10px;
+
+}
+
+.trendy-dolars {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trendy-dolar-now {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #DF6951;
+  padding-right: 20px;
+
+}
+
+.trendy-dolar-before {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7D7D7D;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.trendy-country-explanation {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #000000;
+}
+
+.trendy-countrybutton {
+  background: #DF6951;
+  width: 135px;
+  height: 43px;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.trendy-button-country-area {
+  padding-top: 25px;
+}
+
+.trendy-calendar-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #7D7D7D;
+}
+
+@media(max-width: 500px) {
+  .trendy-country {
+    padding: 0 25px;
+  }
+}
+
+@media(max-width: 380px) {
+  .trendy-country {
+    padding: 0 12.5px;
+  }
+
+  .trendy-header2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+
+@media(max-width: 210px) {
+  .trendy-cards {
+    padding: 5px;
+  }
+
+  .trendy-countryname {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .trendy-header2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* BACKGROUND */
+
+.homepage-header {
+  background: url(/images/homepage-background.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* CONTENT AND SEARCH MENU  */
+.header-content {
+  margin: 150px auto;
+  padding: 0 20px;
+}
+
+.header-content-title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.125rem;
+}
+
+.content-search-box {
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17.760618209838867px);
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.search-box-item button {
+  padding: 14px 50px;
+  border-radius: 14px;
+  background-color: #df6951;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search-box-item {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 1.17531rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+}
+
+.search-box-item input[type="search"] {
+  width: 150px;
+}
+
+.search-box-item h4 {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.search-box-item select {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+#search-area {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.search-box-item select option {
+  color: black;
+}
+
+/* AVATAR MENU */
+.content-people {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.people-avatar {
+  display: flex;
+  position: relative;
+}
+
+.plus-img img {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 10px;
+}
+
+.people-avatar img {
+  margin-right: -15px;
+  margin-top: 10px;
+}
+
+.people-text {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+/* SCROLL */
+.header-scroll img {
+  position: absolute;
+  bottom: -210px;
+  left: 30px;
+}
+
+.homepage-partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  gap: 10px;
+  margin-bottom: 110px;
+}
+
+.partners img {
+  height: 50px;
+  opacity: 0.64;
+  filter: grayscale(100%);
+  background-size: cover;
+}
+
+.homepage-services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-title {
+  text-align: center;
+}
+
+.services-title h3 {
+  color: #df6951;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+}
+
+.services-title h2 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.services-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 130px;
+  margin-top: 50px;
+}
+
+.services-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.services-col-2 {
+  position: relative;
+  box-shadow: 19px 38px 71px -11px rgba(0, 0, 0, 0.2);
+  border-radius: 36px;
+  background-color: white;
+  padding: 45px 35px;
+}
+
+.services-col-img {
+  position: relative;
+}
+
+.services-img-box {
+  width: 50px;
+  height: 50px;
+  background-color: #fff1da;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  top: 35px;
+  right: -15px;
+  z-index: -1;
+}
+
+.services-col-airplane-img {
+  position: relative;
+  z-index: 1;
+}
+
+.services-img-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #df6951;
+  position: absolute;
+  border-radius: 30px;
+  bottom: -30px;
+  left: -30px;
+  z-index: -2;
+}
+
+.services-img-box-3 {
+  width: 50px;
+  height: 50px;
+  background-color: #fff1da;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  left: -10px;
+  top: 16px;
+  z-index: 0;
+}
+
+.services-col-title {
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: #1e1d4c;
+  line-height: normal;
+}
+
+.services-col-title-2 {
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: #1e1d4c;
+  line-height: normal;
+}
+
+.services-col-info {
+  color: #5e6282;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.resort-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1450px;
+  margin: 80px auto;
+}
+
+.resort-row-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.resort-col-row {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.resort-col-title1 {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resort-col-title2 {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0 30px 0;
+}
+
+.resort-row-info p {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%;
+  /* 19.92px */
+}
+
+.resort-row-info h5 {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%;
+  /* 19.92px */
+}
+
+.resort-row-info img {
+  height: 47px;
+  width: 48px;
+}
