@@ -558,3 +558,40 @@ input::placeholder {
   height: 47px;
   width: 48px;
 }
+
+
+.libertystatue-section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.liberty-statue-text {
+  font-size: 42px;
+
+}
+
+.liberty-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.liberty-statue-text-and-line {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Volkhov";
+}
+
+.liberty-photo-line {
+  position: absolute;
+  top: 120%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
