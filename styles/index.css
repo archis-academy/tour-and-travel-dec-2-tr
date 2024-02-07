@@ -595,3 +595,341 @@ input::placeholder {
   left: 90%;
   transform: translate(-50%, -50%);
 }
+
+
+.honeymoon-special-main-div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 20px;
+}
+
+
+
+.honeymoon-special-main-div-left-side>img {
+  width: 100%;
+}
+
+.honeymoon-special-main-div-right-side>h2 {
+  flex-wrap: wrap;
+}
+
+.honeymoon-special-main-div-right-side>h1 {
+  flex-wrap: wrap;
+}
+
+.honeymoon-special-main-div-right-side>p {
+  flex-wrap: wrap;
+}
+
+.honeymoon-special-main-div-left-side {
+  display: flex;
+  padding: 0px;
+}
+
+.honeymoon-special-right-side-title {
+  font-family: "Poppins";
+  color: rgb(248, 136, 7);
+  font-weight: bold;
+
+}
+
+.honeymoon-special-right-side-title-big {
+  font-size: 50px;
+  color: #181E4B;
+  font-family: "Volkhov";
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.honeymoon-special-right-side-paragraph {
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 150%;
+  font-family: "Poppins";
+}
+
+.honeymoon-special-right-side-button {
+  font-weight: bolder;
+  /* bu çalışmıyor */
+  background-color: #DF6951;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-align: start;
+  padding: 20px;
+  padding-right: 25px;
+  gap: 10.45px;
+}
+
+@media(max-width: 860px) {
+  .honeymoon-special-main-div {
+    flex-wrap: wrap;
+  }
+
+  .honeymoon-special-main-div-left-side>img {
+    width: 80%;
+  }
+
+  .footer-column5-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .honeymoon-special-main-div-right-side>h2 {
+    font-size: 30px;
+  }
+
+  .honeymoon-special-main-div-right-side>h1 {
+    font-size: 25px;
+  }
+
+  .honeymoon-special-main-div-right-side>p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 300px) {
+
+
+  .honeymoon-special-main-div-right-side>h2 {
+    font-size: 20px;
+  }
+
+  .honeymoon-special-main-div-right-side>h1 {
+    font-size: 15px;
+  }
+}
+
+
+
+.homepage-tours-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tours-section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  padding-top: 100px;
+  transform: translate(-20%, -0%);
+}
+
+.tours-section-promotion-title {
+  color: #DF6951;
+  /*font-weight: bolder; bu çalışmıyor*/
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-family: "Poppins";
+}
+
+.tours-section-title {
+  padding-bottom: 20px;
+  color: #181E4B;
+  line-height: 71.04px;
+  /* font-weight: 700px; bu yine çalışmıyor*/
+  font-size: 50px;
+  font-family: "Volkhov";
+}
+
+.tours-section-paragraph {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bolder;
+  font-family: "Poppins";
+}
+
+.tour-section-button {
+  background-color: #DF6951;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  text-align: start;
+  padding: 15px;
+  padding-right: 35px;
+  margin-bottom: 50px;
+  font-family: "Poppins";
+}
+
+.tours-section-left-down {
+  display: inline-block;
+  position: relative;
+  transform: translate(18%, 0%);
+}
+
+.tour-section-orange-price-tickets {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  gap: 165px;
+  padding-inline-start: 80px;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.tour-section-ticket-number {
+  background: linear-gradient(90deg, #FF7255, #BA4E38);
+  width: 90px;
+  height: 40px;
+  color: white;
+  padding: 10px;
+  padding-right: 35px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  font-family: "Poppins";
+}
+
+.tours-section-left-down-photos {
+  display: flex;
+  z-index: 0;
+
+
+}
+
+.tour-section-photo1,
+.tour-section-photo2,
+.tour-section-photo3,
+.tour-section-photo4 {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  margin-right: 50px;
+  border-style: none;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background-size: cover;
+  /* Resmi kaplaması için */
+  background-position: center;
+  /* Resmi ortalamak için */
+}
+
+.tour-section-photo1 {
+  border-radius: 10px;
+  background-image: url("/images/tower.jpeg");
+}
+
+.tour-section-photo2 {
+  border-radius: 10px;
+  background-image: url("/images/scenery.jpeg");
+}
+
+.tour-section-photo3 {
+  border-radius: 10px;
+  background-image: url("/images/coliseum.jpeg");
+}
+
+.tour-section-photo4 {
+  border-radius: 10px;
+  background-image: url("/images/palace.jpeg");
+}
+
+.tours-section-right {
+  position: relative;
+  justify-content: center;
+}
+
+.tours-section-right-photo {
+  background-image: url(/images/eiffel.jpeg);
+  background-size: cover;
+  background-position: start;
+  height: 665px;
+  width: 473px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-40%, -90%);
+  z-index: -1;
+  border-top-left-radius: 330px;
+  /* Sol üst köşe */
+  border-top-right-radius: 330px;
+  /* Sağ üst köşe */
+  overflow: hidden;
+}
+
+.homepage-tours-section {
+  padding-bottom: 20px;
+}
+
+
+
+.main-explore-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Ekran yüksekliğinin tamamını kaplamak için */
+}
+
+.left-explore-png {
+  filter: brightness(50%);
+  /* Ayarlanabilir değerler */
+}
+
+.right-png {
+  filter: brightness(50%);
+  /* Ayarlanabilir değerler */
+}
+
+.left-explore-area {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  color: white;
+}
+
+.right-explore-area {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  color: white;
+}
+
+.explore-area-promotion {
+  color: #FFEFEC;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.explore-area-title {
+  color: #FFF;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.042px;
+}
+
+.explore-area-button {
+  margin-top: 20px;
+  width: 180px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-color: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 15px;
+  background-color: transparent;
+  border-color: #FFEFEC;
+  border-style: solid;
+}
