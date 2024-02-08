@@ -19,3 +19,759 @@
   bottom: -30px;
   z-index: -1;
 }
+
+
+.about-page-top {
+  display: flex;
+  background-image: url(/images/about/about-header-img.png);
+  height: 100vh;
+  /* 100% of the viewport height */
+  width: 100vw;
+  /* 100% of the viewport width */
+  background-size: cover;
+  color: #FFEFEC;
+}
+
+.readaboutus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.read-header-text {
+  font-family: "Poppins", monospace;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  transform: translate(0%, 150%);
+  color: #FFEFEC;
+}
+
+.about_us-header-text {
+  font-family: Yesteryear;
+  font-size: 157px;
+  font-weight: 400;
+  line-height: 224px;
+  letter-spacing: 0em;
+  font-family: 'Yesteryear', monospace;
+}
+
+
+
+
+.upmenu {
+  display: inline-flex;
+  position: fixed;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 277px;
+  padding-right: 277px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+.menutext {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.traveltext {
+  width: 150px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-image: url(/images/logo.png);
+}
+
+.menudetails {
+  font-family: "Poppins", monospace;
+  padding: 15px;
+}
+
+.buttongetintouch {
+  width: 152px;
+  height: 58px;
+  text-align: center;
+  justify-content: center;
+  background-color: #DF6951;
+  border-radius: 10px;
+  font-family: "Poppins", monospace;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 15px;
+}
+
+.promotion_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  gap: 50px;
+  padding-top: 100px;
+}
+
+.promotion_photo {
+  background-image: url(/images/about/about-context-img01.png);
+  width: 800px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promotion-main_text_area {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo_title {
+  padding-bottom: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #DF6951
+}
+
+.weprovide-header {
+  padding-bottom: 20px;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #181E4B
+}
+
+.weprovide-promo_text {
+  padding-bottom: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.promo_button {
+  padding-bottom: 20px;
+  background: #DF6951;
+  color: white;
+  width: 150px;
+  height: 50px;
+  top: 1282px;
+  left: 277px;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  gap: 10.45px;
+}
+
+
+.main_wanderlust {
+  display: flex;
+  background-image: url(/images/about/Rectangle\ 19353.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 595px;
+  justify-content: center;
+  text-align: center;
+  background-position: top;
+  z-index: -1;
+
+}
+
+.main_wanderlust::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 595px;
+  transform: translate(0px, 2049px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Siyah ve %50 saydam karartma */
+}
+
+.wanderlust_text {
+  font-family: "Yesteryear", monospace;
+  font-size: 157px;
+  font-weight: 400;
+  line-height: 224px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 200px;
+  z-index: 0;
+}
+
+.wanderlust_logo {
+  background-image: url(/images/about/ant-design_play-circle-filled.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  transform: translate(-350px, 260px);
+  background-size: 90%;
+  z-index: 1;
+}
+
+.main_tour_plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+}
+
+.tour_plans_bigphoto {
+  background-image: url(/images/about/about-trend-img.png);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 700px;
+  transform: translate(-100px, 0px);
+
+}
+
+.tour_plans_text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: flex-start;
+  /* İçerikleri solda hizala */
+  justify-content: flex-start;
+  /* Gerekirse dikeyde üste hizala */
+}
+
+.tour_plans_photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 75px;
+
+}
+
+.tour_photo1 {
+  background-image: url(/images/about/about-statistic-img01.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+}
+
+.tour_photo2 {
+  background-image: url(/images/about/about-statistic-img02.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+
+}
+
+.tour_photo3 {
+  background-image: url(/images/about/about-statistic-img03.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+
+
+.tour_texts {
+  display: flex;
+  text-align: center;
+
+  color: #181E4B;
+
+  font-family: Poppins, monospace;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  padding-top: 200px;
+  padding-left: 20px;
+}
+
+.tour_plans-one_text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #DF6951;
+
+}
+
+.tour_plans-two_text {
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #181E4B;
+
+}
+
+.tour_plans-three_text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.shellphoto {
+  background-image: url(/images/about/about-trend-shell-img.png);
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 255px;
+  flex-shrink: 0;
+  transform: translate(1600px, -700px);
+  z-index: +2;
+  position: absolute;
+}
+
+.about-page-packages {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.about-us-footermain {
+  transform: translate(0px, -300px);
+}
+
+.about-us-footer {
+
+  background-image: url(/images/about/h1-background-img-1\ 1.png);
+  width: 1920px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  justify-content: center;
+}
+
+.about-us-footertexts {
+  padding-top: 125px;
+}
+
+.about-us-footer-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #DF6951;
+}
+
+.about-us-footer-text2 {
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #181E4B;
+}
+
+.about-us-footerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.about-us-footerboxphoto {
+  background-image: url(/images/testimonial-section-box-pp-img.png);
+  width: 170px;
+  height: 170px;
+  background-repeat: no-repeat;
+  transform: translate(870px, 0px);
+  z-index: +1;
+}
+
+.about-us-footerboxwhitebox {
+  transform: translate(680px, -100px);
+  background-color: white;
+  width: 538px;
+  height: 277px;
+  padding-top: 100px;
+  border-radius: 25px;
+}
+
+.about-us-footerboxtext {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+}
+
+.about-us-footerboxtextname {
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+.about-us-footerboxquotepng {
+  background-image: url(/images/testimonial-box-quotes.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  transform: translate(50px, -170px);
+  z-index: +1;
+}
+
+.about-us-footerarrows {
+  display: flex;
+  justify-content: space-between;
+  transform: translate(-48px, -250px);
+  width: 600px;
+  cursor: pointer;
+}
+
+
+.about-us-footerleftarrow {
+  background-image: url(/images/arrow-leeft-icon.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.about-us-footerrightarrow {
+  background-image: url(/images/arrow-right-icon.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.about-us-footerlastphoto {
+  background-image: url(/images/testimonial-section-hat-img.png);
+  width: 300px;
+  height: 289px;
+  transform: translate(-700px, -343px);
+  background-repeat: no-repeat;
+  z-index: +1;
+}
+
+/* devamı */
+
+.about-us-footer-end {
+  text-align: left;
+  background-image: url(/images/Footer\ img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: -1;
+  margin-left: 200px;
+
+}
+
+.about-us-footer-end-column {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  justify-content: center;
+}
+
+.about-us-travel-title {
+  color: #181E4B;
+  text-align: center;
+  font-family: Volkhov, monospace;
+  font-size: 31.622px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+
+}
+
+.about-us-travelarrow {
+  background-image: url(/images/logo-new.png);
+  width: 100px;
+  height: 30px;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  transform: translate(50px, -10px);
+  color: #181E4B;
+}
+
+.about-us-travel-text {
+
+  color: #757095;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 175% */
+  letter-spacing: 0px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.about-us-sub-texts {
+  padding-bottom: 10px;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  font-family: 'Manrope', sans-serif;
+}
+
+.about-us-sub-titles {
+  padding-bottom: 20px;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 114.286% */
+  font-family: 'Manrope', sans-serif;
+}
+
+.about-us-newsletter-div {
+  text-align: start;
+  font-family: 'Manrope', sans-serif;
+}
+
+.about-us-newsletter-button {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Manrope', sans-serif;
+}
+
+.about-us-square1 {
+  border-style: none;
+  width: 389px;
+  height: 52px;
+  flex-shrink: 0;
+  background: rgb(192, 192, 206);
+  font-family: 'Manrope', sans-serif;
+  opacity: 0.2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us-square2 {
+  width: 149px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-style: none;
+  border-radius: 10px;
+  background: #DF6951;
+  transform: translate(-150px, 0px);
+  color: white;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+.about-us-newsletter-text {
+  opacity: 0.5;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: -0.32px;
+}
+
+.about-us-line {
+  width: 80%;
+  height: 2px;
+  background-color: #E5E5EA;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.about-us-footer-end-bottom {
+  color: #181433;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: -0.32px;
+  margin-bottom: 30px;
+}
+
+.about-us-travel-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.about-us-logo1 {
+  background-image: url(/images/about/052-linkedin.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.about-us-logo2 {
+  background-image: url(/images/about/025-messenger.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.about-us-logo3 {
+  background-image: url(/images/about/096-twitter.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.about-us-logo4 {
+  background-image: url(/images/about/097-twoo.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+* {
+  font-family: Poppins, monospace;
+}
+
+.about-page-foto-satirlar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-page-foto-satir {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  /* İstediğiniz boşluğu ayarlayın */
+}
+
+.about-page-foto-kutu {
+  width: 363px;
+  height: 363px;
+  flex-shrink: 0;
+  text-align: center;
+  margin: 0 10px;
+  /* İstediğiniz boşluğu ayarlayın */
+}
+
+.about-page-foto-kutu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.about-page-img-name {
+  display: block;
+  margin-top: 5px;
+  /* İstediğiniz boşluğu ayarlayın */
+  font-weight: bold;
+}
+
+.about-page-foto-kutu-uzun {
+  width: 363px;
+  height: 745px;
+  flex-shrink: 0;
+  text-align: center;
+  margin: 0 10px;
+  /* İstediğiniz boşluğu ayarlayın */
+}
+
+.about-page-foto-kutu-uzun img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
+}
+
+.about-page-img-name {
+  display: block;
+  margin-top: 5px;
+  /* İstediğiniz boşluğu ayarlayın */
+  font-weight: bold;
+}
+
+.about-page-foto-kutu-span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  transform: translate(0px, -50px);
+  font-size: 20px;
+}
+
+.about-page-foto-satir2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  /* İstediğiniz boşluğu ayarlayın */
+  transform: translate(0px, -382px);
+  z-index: -1;
+}
+
+.about-page-foto-kutu2 {
+  width: 363px;
+  height: 363px;
+  flex-shrink: 0;
+  text-align: center;
+  margin: 0 10px;
+  /* İstediğiniz boşluğu ayarlayın */
+}
+
+.packages-title {
+  justify-content: center;
+  text-align: center;
+  color: #DF6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.packages-sec-title {
+  justify-content: center;
+  text-align: center;
+  color: #181E4B;
+  color: #181E4B;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.042px;
+  padding-bottom: 50px;
+}
