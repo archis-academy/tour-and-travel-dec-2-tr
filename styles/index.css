@@ -498,6 +498,7 @@ input::placeholder {
 
 .resort-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   max-width: 1450px;
@@ -508,6 +509,10 @@ input::placeholder {
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+.resort-col {
+  padding-left: 50px;
 }
 
 .resort-col-row {
@@ -567,11 +572,34 @@ input::placeholder {
   position: relative;
   justify-content: center;
   align-items: center;
+  min-width: 250px;
 }
 
 .liberty-statue-text {
   font-size: 42px;
 
+}
+
+@media(max-width: 860px) {
+  .liberty-statue-text {
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+
+  .liberty-photo-line {
+    width: 100px;
+  }
+}
+
+@media(max-width: 360px) {
+  .liberty-statue-text {
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+
+  .liberty-photo-line {
+    width: 50px;
+  }
 }
 
 .liberty-photo {
@@ -709,20 +737,21 @@ input::placeholder {
 
 .homepage-tours-section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 50px;
+
 }
 
 .tours-section-left {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
   padding-top: 100px;
-  transform: translate(-20%, -0%);
 }
 
 .tours-section-promotion-title {
@@ -775,6 +804,7 @@ input::placeholder {
   padding-inline-start: 80px;
   z-index: 1;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .tour-section-ticket-number {
@@ -791,9 +821,9 @@ input::placeholder {
 
 .tours-section-left-down-photos {
   display: flex;
+  flex-wrap: wrap;
   z-index: 0;
-
-
+  gap: 20px;
 }
 
 .tour-section-photo1,
