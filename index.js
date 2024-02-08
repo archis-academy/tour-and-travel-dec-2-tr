@@ -19,20 +19,20 @@ function packageMenuClose() {
 
 
 }
-
-document.querySelector("#toggle-menu-link").addEventListener("mouseover", openToggleMenu);
-document.querySelector("#toggle-menu-link").addEventListener("mouseout", closeToggleMenu);
-document.querySelector("#toggle-menu").addEventListener("mouseover", openToggleMenu);
-document.querySelector("#toggle-menu").addEventListener("mouseout", closeToggleMenu)
-function openToggleMenu() {
-   let toggleMenuList = document.querySelector("#toggle-menu");
-   toggleMenuList.style.display = "block"
-}
-function closeToggleMenu() {
-   let toggleMenuList = document.querySelector("#toggle-menu");
-   toggleMenuList.style.display = "none"
-}
-
-
+document.addEventListener("DOMContentLoaded", function () {
+   document.querySelector("#toggle-menu-link").addEventListener("mouseover", openToggleMenu);
+   document.querySelector("#toggle-menu-link").addEventListener("mouseout", closeToggleMenu);
+   document.querySelector("#toggle-menu").addEventListener("mouseover", openToggleMenu);
+   document.querySelector("#toggle-menu").addEventListener("mouseout", closeToggleMenu)
+   function openToggleMenu() {
+      let toggleMenuList = document.querySelector("#toggle-menu");
+      toggleMenuList.style.display = "block"
+   }
+   function closeToggleMenu() {
+      let toggleMenuList = document.querySelector("#toggle-menu");
+      toggleMenuList.style.display = "none"
+   }
 
 
+
+});
