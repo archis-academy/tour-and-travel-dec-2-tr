@@ -1,3 +1,4 @@
+
 .about-page-top {
     display: flex;
     background-image: url(/images/about/about-header-img.png);
@@ -36,9 +37,6 @@
     letter-spacing: 0em;
     font-family: 'Yesteryear', monospace;
 }
-
-
-
 
 .upmenu {
     display: inline-flex;
@@ -669,13 +667,6 @@
     /* İstediğiniz bir kenar yuvarlaklığını ayarlayın */
 }
 
-.about-page-img-name {
-    display: block;
-    margin-top: 5px;
-    /* İstediğiniz boşluğu ayarlayın */
-    font-weight: bold;
-}
-
 .about-page-foto-kutu-uzun {
     width: 363px;
     height: 745px;
@@ -751,4 +742,26 @@
     font-weight: 700;
     line-height: 71.042px;
     padding-bottom: 50px;
+}
+
+.services-img-box {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 15px 5px 20px 5px;
+  opacity: 0.1;
+  top: 10px;
+  left: 90px;
+}
+
+.services-img-box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #df6951;
+  position: absolute;
+  border-radius: 30px;
+  left: -30px;
+  bottom: -30px;
+  z-index: -1;
 }
